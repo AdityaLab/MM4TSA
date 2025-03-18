@@ -54,7 +54,7 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Language Models Still Struggle to Zero-shot Reason about Time Series | EMNLP (Findings) |
+| Language Models Still Struggle to Zero-shot Reason about Time Series | EMNLP 2024 Findings |
 | DiffuSETS: 12-lead ECG Generation Conditioned on Clinical Text Reports and Patient-Specific Information | arXiv 25.01 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 
@@ -64,8 +64,8 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Evaluating Large Language Models on Time Series Feature Understanding: A Comprehensive Taxonomy and Benchmark | Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing |
-| TimeSeriesExam: A Time Series Understanding Exam | NeurIPS Workshop on Time Series in the Age of Large Models |
+| Evaluating Large Language Models on Time Series Feature Understanding: A Comprehensive Taxonomy and Benchmark | EMNLP 2024 |
+| TimeSeriesExam: A Time Series Understanding Exam | NeurIPS 2024 Workshop on Time Series in the Age of Large Models |
 | CLaSP: Learning Concepts for Time-Series Signals from Natural Language Supervision | arXiv 24.11 |
 
 ### 1.2 Time Series to Text
@@ -86,13 +86,13 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Repr2Seq: A Data-to-Text Generation Model for Time Series | 2023 International Joint Conference on Neural Networks (IJCNN) |
+| Repr2Seq: A Data-to-Text Generation Model for Time Series | IJCNN 2023 |
 | Insight miner: A time series analysis dataset for cross-domain alignment with natural language | NeurIPS 2023 AI for Science Workshop |
-| T 3: Domain-agnostic neural time-series narration | 2021 IEEE International Conference on Data Mining (ICDM) |
+| T 3: Domain-agnostic neural time-series narration | ICDM 2021 |
 | Neural data-driven captioning of time-series line charts | Proceedings of the 2020 International Conference on Advanced Visual Interfaces |
 | Time Series Language Model for Descriptive Caption Generation | arXiv 25.01 |
-| Domain-Independent Automatic Generation of Descriptive Texts for Time-Series Data | arXiv 24.09 |
 | Decoding Time Series with LLMs: A Multi-Agent Framework for Cross-Domain Annotation | arXiv 24.10 |
+| Domain-Independent Automatic Generation of Descriptive Texts for Time-Series Data | arXiv 24.09 |
 
 ### 1.3 Text to Time + Time to Text
 
@@ -100,8 +100,8 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI |
-| DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts | Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing |
+| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
+| DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts | EMNLP 2024 |
 | Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement | arXiv 25.03 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Multi-Modal Forecaster: Jointly Predicting Time Series and Textual Data | arXiv 24.11 |
@@ -114,8 +114,8 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Urbanclip: Learning text-enhanced urban region profiling with contrastive language-image pretraining from the web | Proceedings of the ACM Web Conference 2024 |
-| Urbangpt: Spatio-temporal large language models | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining |
+| Urbanclip: Learning text-enhanced urban region profiling with contrastive language-image pretraining from the web | the Web Conference 2024 |
+| Urbangpt: Spatio-temporal large language models | KDD 2024 |
 | Research on the visualization of spatio-temporal data | IOP Conference Series: Earth and Environmental Science |
 | Spatial temporal data visualization in emergency management: a view from data-driven decision | Proceedings of the 3rd ACM SIGSPATIAL International Workshop on the Use of GIS in Emergency Management |
 | Teochat: A large vision-language assistant for temporal earth observation data | arXiv 24.10 |
@@ -126,23 +126,23 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Electrocardiogram Report Generation and Question Answering via Retrieval-Augmented Self-Supervised Modeling | NeurIPS Workshop on Time Series in the Age of Large Models |
+| Electrocardiogram Report Generation and Question Answering via Retrieval-Augmented Self-Supervised Modeling | NeurIPS 2024 Workshop on Time Series in the Age of Large Models |
 | Frozen language model helps ecg zero-shot learning | Medical Imaging with Deep Learning |
-| Multimodal Models for Comprehensive Cardiac Diagnostics via ECG Interpretation | 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) |
+| Multimodal Models for Comprehensive Cardiac Diagnostics via ECG Interpretation | IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2024 |
 | ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with LLM-Enhanced Cardiological Text | Transactions on Machine Learning Research |
 | Towards a Personal Health Large Language Model | Advancements In Medical Foundation Models: Explainability, Robustness, Security, and Beyond |
 | Diffusion-based conditional ECG generation with structured state space models | Computers in biology and medicine |
-| Text-to-ecg: 12-lead electrocardiogram synthesis conditioned on clinical text reports | ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) |
-| BioSignal Copilot: Leveraging the power of LLMs in drafting reports for biomedical signals | medRxiv |
+| Text-to-ecg: 12-lead electrocardiogram synthesis conditioned on clinical text reports | ICASSP 2023 |
 | From data to text in the neonatal intensive care unit: Using NLG technology for decision support and information management | Ai Communications |
 | Using natural language generation technology to improve information flows in intensive care units | ECAI 2008 |
 | Summarising complex ICU data in natural language | AMIA annual symposium proceedings |
 | DiffuSETS: 12-lead ECG Generation Conditioned on Clinical Text Reports and Patient-Specific Information | arXiv 25.01 |
 | Automated medical report generation for ecg data: Bridging medical text and signal processing with deep learning | arXiv 24.12 |
-| MEIT: Multi-modal electrocardiogram instruction tuning on large language models for report generation | arXiv 24.03 |
-| Electrocardiogram instruction tuning for report generation | arXiv 2024 |
 | ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis | arXiv 24.08 |
 | Medtsllm: Leveraging llms for multimodal medical time series analysis | arXiv 24.08 |
+| MEIT: Multi-modal electrocardiogram instruction tuning on large language models for report generation | arXiv 24.03 |
+| Electrocardiogram instruction tuning for report generation | arXiv 2024.03 |
+| BioSignal Copilot: Leveraging the power of LLMs in drafting reports for biomedical signals | medRxiv 23.06 |
 
 #### 1.4.3 Financial Time Series
 
@@ -151,51 +151,46 @@ A curated list of papers in the emerging field of multi-modal time series analys
 | Title | Venue |
 |-------|-------|
 | Knowledge-augmented Financial Market Analysis and Report Generation | Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track |
-| FinTral: A Family of GPT-4 Level Multimodal Financial Large Language Models | Findings of the Association for Computational Linguistics ACL 2024 |
-| Neural abstractive summarization for long text and multiple tables | IEEE Transactions on Knowledge and Data Engineering |
-| Diffusion-based conditional ECG generation with structured state space models | Computers in biology and medicine |
-| Long Text and Multi-Table Summarization: Dataset and Method | Findings of the Association for Computational Linguistics: EMNLP 2022 |
+| FinTral: A Family of GPT-4 Level Multimodal Financial Large Language Models | ACL 2024 Findings|
 | Open-finllms: Open multimodal large language models for financial applications | arXiv 24.08 |
 | Multimodal gen-ai for fundamental investment research | arXiv 24.01 |
 
 ### 1.5 Gaps and Outlooks
 
-#### 1.5.1 Unseen Tasks
+#### 1.5.1 Unseen Tasks: Introducing Reasoning
 
 <a id='unseen-tasks-papers-1'></a>
 
 | Title | Venue |
 |-------|-------|
-| A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL25 |
+| A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL 2025 |
 | Evaluating System 1 vs. 2 Reasoning Approaches for Zero-Shot Time-Series Forecasting: A Benchmark and Insights | arXiv 25.03 |
-| Beyond Forecasting: Compositional Time Series Reasoning for End-to-End Task Execution | arXiv 24.10 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
+| Beyond Forecasting: Compositional Time Series Reasoning for End-to-End Task Execution | arXiv 24.10 |
 
 ## 2. Time+X
 
 ### 2.1 Time Series + Text
 
+*we list papers using dynamic text especially with exogenous information
 <a id='time-series--text-papers'></a>
 
+#### Forecasting (& Imputation)
 | Title | Venue |
 |-------|-------|
-| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI |
-| Autotimes: Autoregressive time series forecasters via large language models | Advances in Neural Information Processing Systems |
-| Fnspid: A comprehensive financial news dataset in time series | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining |
-| Time-series forecasting for out-of-distribution generalization using invariant learning | Proceedings of the 41st International Conference on Machine Learning |
-| Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis | Advances in Neural Information Processing Systems |
-| Chain-of-thought prompting elicits reasoning in large language models | Advances in neural information processing systems |
-| Dual-Forecaster: A Multimodal Time Series Model Integrating Descriptive and Predictive Texts | Unknown |
+| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
+| Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis | NeurIPS 2024 |
+| From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection | NeurIPS 2024 |
 | Language in the Flow of Time: Time-Series-Paired Texts Weaved into a Unified Temporal Narrative | arXiv 25.02 |
-| Lstprompt: Large language models as zero-shot time series forecasters by long-short-term prompting | arXiv 24.02 |
 | Context is Key: A Benchmark for Forecasting with Essential Textual Information | arXiv 24.10 |
 | Beyond trend and periodicity: Guiding time series forecasting with textual cues | arXiv 24.05 |
-| From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection | arXiv 24.09 |
+| Dual-Forecaster: A Multimodal Time Series Model Integrating Descriptive and Predictive Texts | Openreview |
+
+#### Classification
 | Advancing time series classification with multimodal language modeling | arXiv 24.03 |
 | Hierarchical Multimodal LLMs with Semantic Space Alignment for Enhanced Time Series Classification | arXiv 24.10 |
 | Dualtime: A dual-adapter multimodal language model for time series representation | arXiv 24.06 |
-| Time-LLM: Time Series Forecasting by Reprogramming Large Language Models | arXiv 23.10 |
-| Time-llm: Time series forecasting by reprogramming large language models | arXiv 23.10 |
+
 
 ### 2.2 Time Series + Other Modalities
 
@@ -203,7 +198,7 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Imagebind: One embedding space to bind them all | Proceedings of the IEEE/CVF conference on computer vision and pattern recognition |
+| Imagebind: One embedding space to bind them all | CVPR 2023 |
 | LANISTR: Multimodal learning from structured and unstructured data | arXiv 23.05 |
 
 ### 2.3 Domain Specific Applications
@@ -214,15 +209,15 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Terra: A Multimodal Spatio-Temporal Dataset Spanning the Earth | Advances in Neural Information Processing Systems |
+| Terra: A Multimodal Spatio-Temporal Dataset Spanning the Earth |  NeurIPS 2024 |
 | BjTT: A large-scale multimodal dataset for traffic prediction | IEEE Transactions on Intelligent Transportation Systems |
-| Event Traffic Forecasting with Sparse Multimodal Data | Proceedings of the 32nd ACM International Conference on Multimedia |
+| Event Traffic Forecasting with Sparse Multimodal Data | Proceedings of the 32nd ACM International Conference on Multimedia 2024 |
+| Mmst-vit: Climate change-aware crop yield prediction via multi-modal spatial-temporal vision transformer | CVPR 2023 |
 | Mobile traffic prediction in consumer applications: A multimodal deep learning approach | IEEE Transactions on Consumer Electronics |
-| Mmst-vit: Climate change-aware crop yield prediction via multi-modal spatial-temporal vision transformer | Proceedings of the IEEE/CVF International Conference on Computer Vision |
 | Urban informal settlements classification via a transformer-based spatial-temporal fusion network using multimodal remote sensing and time-series human activity data | International Journal of Applied Earth Observation and Geoinformation |
 | Spatial-temporal attention-based convolutional network with text and numerical information for stock price prediction | Neural Computing and Applications |
-| Traffic congestion prediction using toll and route search log data | 2022 IEEE International Conference on Big Data (Big Data) |
-| Understanding city traffic dynamics utilizing sensor and textual observations | Proceedings of the AAAI Conference on Artificial Intelligence |
+| Traffic congestion prediction using toll and route search log data | IEEE International Conference on Big Data (Big Data) 2022 |
+| Understanding city traffic dynamics utilizing sensor and textual observations | AAAI 2016  |
 | Citygpt: Empowering urban spatial cognition of large language models | arXiv 24.06 |
 
 #### 2.3.2 Medical Time Series
@@ -231,21 +226,22 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Multimodal risk prediction with physiological signals, medical images and clinical notes | Heliyon |
-| EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation | Proceedings of the 33rd ACM International Conference on Information and Knowledge Management |
-| Addressing asynchronicity in clinical multimodal fusion via individualized chest x-ray generation | Advances in Neural Information Processing Systems |
-| Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention | Machine Learning for Healthcare Conference |
+| Addressing asynchronicity in clinical multimodal fusion via individualized chest x-ray generation | NeurIPS 2024 |
+| EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation | CIKM 2024 |
+| Improving medical predictions by irregular multimodal electronic health records modeling | ICML 2023 |
+| Multimodal pretraining of medical time series and notes | Machine Learning for Health (ML4H) 2023|
+| Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention | Machine Learning for Health (ML4H) 2023 |
+| MedFuse: Multi-modal fusion with clinical time-series data and chest X-ray images | Machine Learning for Health (ML4H) 2022 |
+| Miracle: Causally-aware imputation via learning missing data mechanisms | NeurIPS 2021 |
+| How to leverage the multimodal EHR data for better medical prediction? | Conference on Empirical Methods in Natural Language Processing 2021|
 | Deep multi-modal intermediate fusion of clinical record and time series data in mortality prediction | Frontiers in Molecular Biosciences |
-| Multimodal pretraining of medical time series and notes | Machine Learning for Health (ML4H) |
-| Improving medical predictions by irregular multimodal electronic health records modeling | International Conference on Machine Learning |
-| MedFuse: Multi-modal fusion with clinical time-series data and chest X-ray images | Proceedings of the 7th Machine Learning for Healthcare Conference |
 | Integrated multimodal artificial intelligence framework for healthcare applications | NPJ digital medicine |
-| How to leverage the multimodal EHR data for better medical prediction? | Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing |
-| Miracle: Causally-aware imputation via learning missing data mechanisms | Advances in Neural Information Processing Systems |
 | PTB-XL, a large publicly available electrocardiography dataset | Scientific data |
 | Fusion of medical imaging and electronic health records using deep learning: a systematic review and implementation guidelines | NPJ digital medicine |
 | Arbitrary Data as Images: Fusion of Patient Data Across Modalities and Irregular Intervals with Vision Transformers | arXiv 25.01 |
 | Towards Predicting Temporal Changes in a Patient's Chest X-ray Images based on Electronic Health Records | arXiv 24.09 |
+| Multimodal risk prediction with physiological signals, medical images and clinical notes | medrxiv 23.05|
+
 
 #### 2.3.3 Financial Time Series
 
@@ -253,9 +249,9 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
+| Fnspid: A comprehensive financial news dataset in time series | KDD 2024 |
 | Multi-modal deep learning for credit rating prediction using text and numerical data streams | Applied Soft Computing |
 | Multimodal multiscale dynamic graph convolution networks for stock price prediction | Pattern Recognition |
-| Fnspid: A comprehensive financial news dataset in time series | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining |
 | Multi-Modal Financial Time-Series Retrieval Through Latent Space Projections | Proceedings of the Fourth ACM International Conference on AI in Finance |
 | Natural language based financial forecasting: a survey | Artificial Intelligence Review |
 | Financial analysis, planning \& forecasting: Theory and application | Unknown |
@@ -274,7 +270,7 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Imagebind: One embedding space to bind them all | Proceedings of the IEEE/CVF conference on computer vision and pattern recognition |
+| Imagebind: One embedding space to bind them all | CVPR 2023 |
 | LANISTR: Multimodal learning from structured and unstructured data | arXiv 23.05 |
 
 ## 3. TimeAsX
@@ -285,26 +281,26 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI |
+| Context-Alignment: Activating and Enhancing LLM Capabilities in Time Series | ICLR 2025 |
+| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025|
 | Exploiting Language Power for Time Series Forecasting with Exogenous Variables | THE WEB CONFERENCE 2025 |
-| TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting | The Twelfth International Conference on Learning Representations |
-| Autotimes: Autoregressive time series forecasters via large language models | Advances in Neural Information Processing Systems |
-| S2 IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting | Forty-first International Conference on Machine Learning |
-| Large language models are zero-shot time series forecasters | Advances in Neural Information Processing Systems |
-| One fits all: Power general time series analysis by pretrained lm | Advances in neural information processing systems |
-| Lag-llama: Towards foundation models for time series forecasting | R0-FoMo: Robustness of Few-shot and Zero-shot Learning in Large Foundation Models |
-| Context-Alignment: Activating and Enhancing LLM Capabilities in Time Series | arXiv 25.01 |
+| Lstprompt: Large language models as zero-shot time series forecasters by long-short-term prompting | ACL 2024 Findings |
+| TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting | ICLR 2024 |
+| TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series | ICLR 2024 |
+| Time-LLM: Time Series Forecasting by Reprogramming Large Language Models | ICLR 2024 |
+| Autotimes: Autoregressive time series forecasters via large language models | NeurIPS 2024 |
+| S2 IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting | ICML 2024 |
+| Large language models are zero-shot time series forecasters | NeurIPS 2023 |
+| One fits all: Power general time series analysis by pretrained lm | NeurIPS 2023 |
+| PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting| IEEE Transactions on Knowledge and Data Engineering |
+| Chronos: Learning the language of time series | TMLR |
+| LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters | ACM Transactions on Intelligent Systems and Technology |
 | Large Language Models are Few-shot Multivariate Time Series Classifiers | arXiv 25.02 |
-| Lstprompt: Large language models as zero-shot time series forecasters by long-short-term prompting | arXiv 24.02 |
-| Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning | arXiv 24.02 |
-| Large language models can deliver accurate and interpretable time series anomaly detection | arXiv 24.05 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
-| Chronos: Learning the language of time series | arXiv 24.03 |
-| Where Would I Go Next? Large Language Models as Human Mobility Predictors | arXiv 23.08 |
-| LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters | arXiv 23.08 |
-| TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series | arXiv 23.08 |
-| Time-LLM: Time Series Forecasting by Reprogramming Large Language Models | arXiv 23.10 |
-| Leveraging Language Foundation Models for Human Mobility Forecasting | arXiv 22.09 |
+| Large language models can deliver accurate and interpretable time series anomaly detection | arXiv 24.05 |
+| Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning | arXiv 24.02 |
+| Lag-llama: Towards foundation models for time series forecasting | arXiv 23.10 |
+
 
 ### 3.2 Time Series as Image
 
@@ -312,18 +308,18 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| CAFO: Feature-Centric Explanation on Time Series Classification | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining |
-| Towards total recall in industrial anomaly detection | Proceedings of the IEEE/CVF conference on computer vision and pattern recognition |
-| Deep video prediction for time series forecasting | Proceedings of the Second ACM International Conference on AI in Finance |
+| CAFO: Feature-Centric Explanation on Time Series Classification | KDD 2024 |
+|TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis | ICLR 2024 |
+| Towards total recall in industrial anomaly detection | CVPR 2022 |
+| Deep video prediction for time series forecasting | Proceedings of the Second ACM International Conference on AI in Finance 2021|
 | Forecasting with time series imaging | Expert Systems with Applications |
 | Can Multimodal LLMs Perform Time Series Anomaly Detection? | arXiv 25.02 |
 | Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting | arXiv 25.02 |
-| ViTime: A Visual Intelligence-Based Foundation Model for Time Series Forecasting | arXiv 24.07 |
 | See it, Think it, Sorted: Large Multimodal Models are Few-shot Time Series Anomaly Analyzers | arXiv 24.11 |
-| Vitime: A visual intelligence-based foundation model for time series forecasting | arXiv 24.07 |
 | Plots Unlock Time-Series Understanding in Multimodal Models | arXiv 24.10 |
 | VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecasters | arXiv 24.08 |
 | Training-Free Time-Series Anomaly Detection: Leveraging Image Foundation Models | arXiv 24.08 |
+| ViTime: A Visual Intelligence-Based Foundation Model for Time Series Forecasting | arXiv 24.07 |
 | Time Series as Images: Vision Transformer for Irregularly Sampled Time Series | arXiv 23.03 |
 | An image is worth 16x16 words: Transformers for image recognition at scale | arXiv 20.10 |
 | Imaging Time-Series to Improve Classification and Imputation | arXiv 15.06 |
@@ -336,7 +332,7 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Forecastpfn: Synthetically-trained zero-shot forecasting | Advances in Neural Information Processing Systems |
+| Forecastpfn: Synthetically-trained zero-shot forecasting | NeurIPS 2024 |
 | The Tabular Foundation Model TabPFN Outperforms Specialized Time Series Forecasting Models Based on Simple Features | NeurIPS 2024 Third Table Representation Learning Workshop |
 | TableTime: Reformulating Time Series Classification as Zero-Shot Table Understanding via Large Language Models | arXiv 24.11 |
 | Tabular Transformers for Modeling Multivariate Time Series | arXiv 20.11 |
@@ -347,8 +343,8 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| Ssast: Self-supervised audio spectrogram transformer | Proceedings of the AAAI Conference on Artificial Intelligence |
-| T-wavenet: a tree-structured wavelet neural network for time series signal analysis | International conference on learning representations |
+| Ssast: Self-supervised audio spectrogram transformer | AAAI 2022 |
+| T-wavenet: a tree-structured wavelet neural network for time series signal analysis | ICLR 2022|
 | Voice2Series: Reprogramming Acoustic Models for Time Series Classification | arXiv 21.06 |
 
 ### 3.4 Domain Specific Applications
@@ -359,18 +355,18 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
+| Spatial-temporal large language model for traffic prediction | 25th IEEE International Conference on Mobile Data Management (MDM) 2024  |
+| Unist: A prompt-empowered universal model for urban spatio-temporal prediction | KDD 2024 |
+| Urbangpt: Spatio-temporal large language models | KDD 2024 |
+| Vmrnn: Integrating vision mamba and lstm for efficient and accurate spatiotemporal forecasting | CVPR 2024 |
+| Learning social meta-knowledge for nowcasting human mobility in disaster | the Web Conference 2023 |
+| Storm-gan: spatio-temporal meta-gan for cross-city estimation of human mobility responses to covid-19 | ICDM 2022 |
+| Deep multi-view spatial-temporal network for taxi demand prediction | AAAI 2018 |
 | Trafficgpt: Viewing, processing and interacting with traffic foundation models | Transport Policy |
-| Spatial-temporal large language model for traffic prediction | 2024 25th IEEE International Conference on Mobile Data Management (MDM) |
-| Unist: A prompt-empowered universal model for urban spatio-temporal prediction | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining |
-| Urbangpt: Spatio-temporal large language models | Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining |
-| Vmrnn: Integrating vision mamba and lstm for efficient and accurate spatiotemporal forecasting | Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition |
-| Learning social meta-knowledge for nowcasting human mobility in disaster | Proceedings of the ACM Web Conference 2023 |
 | Deep spatio-temporal adaptive 3d convolutional neural networks for traffic flow prediction | ACM Transactions on Intelligent Systems and Technology (TIST) |
-| Storm-gan: spatio-temporal meta-gan for cross-city estimation of human mobility responses to covid-19 | 2022 IEEE international conference on data mining (ICDM) |
-| Deep multi-view spatial-temporal network for taxi demand prediction | Proceedings of the AAAI conference on artificial intelligence |
 | ClimateLLM: Efficient Weather Forecasting via Frequency-Aware Large Language Models | arXiv 25.02 |
-| How can large language models understand spatial-temporal data? | arXiv 24.01 |
 | TPLLM: A traffic prediction framework based on pretrained large language models | arXiv 24.03 |
+| How can large language models understand spatial-temporal data? | arXiv 24.01 |
 
 #### 3.4.2 Medical Time Series
 
@@ -378,11 +374,11 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
-| ECG-LLM: Leveraging Large Language Models for Low-Quality ECG Signal Restoration | 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) |
-| Multimodal llms for health grounded in individual-specific data | Workshop on Machine Learning for Multimodal Healthcare Data |
+| ECG-LLM: Leveraging Large Language Models for Low-Quality ECG Signal Restoration | IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2024  |
+| Multimodal llms for health grounded in individual-specific data | Workshop on Machine Learning for Multimodal Healthcare Data 2023|
 | ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis | arXiv 24.08 |
-| Dualtime: A dual-adapter multimodal language model for time series representation | arXiv 24.06 |
 | Medtsllm: Leveraging llms for multimodal medical time series analysis | arXiv 24.08 |
+| Dualtime: A dual-adapter multimodal language model for time series representation | arXiv 24.06 |
 | Large language models are few-shot health learners | arXiv 23.05 |
 
 #### 3.4.3 Financial Time Series
@@ -391,15 +387,15 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Title | Venue |
 |-------|-------|
+| MTRGL: Effective Temporal Correlation Discerning through Multi-modal Temporal Relational Graph Learning | ICASSP 2024 |
+| From pixels to predictions: Spectrogram and vision transformer for better time series forecasting | Proceedings of the Fourth ACM International Conference on AI in Finance 2023 |
 | Quantum-enhanced forecasting: Leveraging quantum gramian angular field and CNNs for stock return predictions | Finance Research Letters |
-| MTRGL: Effective Temporal Correlation Discerning through Multi-modal Temporal Relational Graph Learning | ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) |
 | Deep learning-based spatial-temporal graph neural networks for price movement classification in crude oil and precious metal markets | Machine Learning with Applications |
-| From pixels to predictions: Spectrogram and vision transformer for better time series forecasting | Proceedings of the Fourth ACM International Conference on AI in Finance |
 | Financial time series forecasting with multi-modality graph neural network | Pattern Recognition |
 | Encoding candlesticks as images for pattern classification using convolutional neural networks | Financial Innovation |
 | Forecasting with time series imaging | Expert Systems with Applications |
-| A Stock Price Prediction Approach Based on Time Series Decomposition and Multi-Scale CNN using OHLCT Images | arXiv 24.10 |
 | Research on financial multi-asset portfolio risk prediction model based on convolutional neural networks and image processing | arXiv 24.12 |
+| A Stock Price Prediction Approach Based on Time Series Decomposition and Multi-Scale CNN using OHLCT Images | arXiv 24.10 |
 | An image is worth 16x16 words: Transformers for image recognition at scale | arXiv 20.10 |
 | Image processing tools for financial time series classification | arXiv 20.08 |
 | Financial trading model with stock bar chart image time series with deep convolutional neural networks | arXiv 19.03 |
