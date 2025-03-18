@@ -1,8 +1,25 @@
-# Awesome Multi-Modal Time Series Analysis Papers (MM4TSA)
+# Awesome Multi-Modal Time Series Analysis (MM4TSA)
 
-A curated list of papers in the emerging field of multi-modal time series analysis, where multiple data modalities are combined to enhance time series analysis tasks.
+A curated collection of papers in the emerging field of Multi-Modal Time Series Analysis (MM4TSA), where time series data is enriched with or transformed into other modalities for enhanced analysis.
+
+## Introduction
+
+Time series analysis (TSA) is essential across various domains including energy forecasting, traffic planning, and epidemic policy formulation. However, traditional TSA research has largely focused only on numerical series, ignoring other potentially valuable modalities - the "elephant in the room" problem. This limited approach results in incomplete information and non-verbalized interactions.
+
+In recent years, "richer" modalities such as language and vision have experienced explosive development through powerful foundation models (like GPT and Qwen). Meanwhile, the time-series modality has remained relatively isolated. Fortunately, emerging MM4TSA studies are breaking this impasse, driven by the fundamental question: **"How can TSA benefit from multiple modalities?"**
+
+Despite rapid developments in this space, systematic analysis has been notably absent. Existing surveys mainly focus on reusing large language models for TSA, which represents only a small subset of possible approaches.
+
+This resource serves as **the first comprehensive collection of the emerging MM4TSA field**, systematically organizing papers into three key approaches:
+
+1. **TimeAsX**: Reusing foundation models from other modalities for efficient TSA
+2. **Time+X**: Multimodal extension for enhanced TSA
+3. **Time2X and X2Time**: Cross-modality interaction for advanced TSA
+
+The collection comprehensively covers multiple modalities (language, vision, tables, audio) and includes domain-specific applications in finance, healthcare, and spatiotemporal analysis to illustrate real-world value.
 
 **Sorting Method**: Papers in each table are sorted by publication venue first (published papers take precedence over preprints), then by recency (newer arXiv preprints appear before older ones).
+
 
 ## Table of Contents
 
