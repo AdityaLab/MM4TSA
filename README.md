@@ -42,7 +42,7 @@ If you find this survey useful, please cite our paper.
 
 - [1. Time2X and X2Time](#1-time2x-and-x2time)
   - [1.1 Text to Time Series](#11-text-to-time-series)
-    - [1.1.1 Generation](#111-generation) - [Jump to table](#generation-papers)
+    - [1.1.1 Generation](#111-generation)
     - [1.1.2 Retrieval](#112-retrieval) - [Jump to table](#retrieval-papers)
   - [1.2 Time Series to Text](#12-time-series-to-text)
     - [1.2.1 Explanation](#121-explanation) - [Jump to table](#explanation-papers)
