@@ -1,4 +1,11 @@
-# Awesome Multi-Modal Time Series Analysis Papers (MM4TSA)
+<div align="center">
+
+# Awesome Multi-Modalities For Time Series Analysis Papers (MM4TSA)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 
 A curated list of papers in the emerging field of multi-modal time series analysis, where multiple data modalities are combined to enhance time series analysis tasks.
 
