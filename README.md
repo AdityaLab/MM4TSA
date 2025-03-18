@@ -486,3 +486,16 @@ If you find this survey useful, please cite our paper.
 |---------|------------|------------|
 | [CityEval](https://arxiv.org/abs/2406.13948) | Time+Text+Image | Multiple Urban Tasks, capable of Involving LLMs |
 | [Terra](https://papers.nips.cc/paper_files/paper/2024/hash/7a6a7fbd1ee0c9684b3f919f79d129ef-Abstract-Datasets_and_Benchmarks_Track.html) | Time+Text+Image | Worldwide Grid Data across 45 Years |
+
+## Contact
+If you have any questions or suggestions, feel free to contact:
+hliu763@gatech.edu
+## Acknowledgement
+
+This library is constructed based on the following repos:
+
+https://github.com/ForestsKing/Awesome-Multimodal-Time-Series
+
+https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM
+
+
