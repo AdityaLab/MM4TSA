@@ -199,6 +199,7 @@ If you find this survey useful, please cite our paper.
 |-------|-------|
 | A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL 2025 |
 | Evaluating System 1 vs. 2 Reasoning Approaches for Zero-Shot Time-Series Forecasting: A Benchmark and Insights | arXiv 25.03 |
+| Position: Empowering Time Series Reasoning with Multimodal LLMs|  arXiv 25.02 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Beyond Forecasting: Compositional Time Series Reasoning for End-to-End Task Execution | arXiv 24.10 |
 
@@ -215,6 +216,7 @@ If you find this survey useful, please cite our paper.
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis | NeurIPS 2024 |
 | From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection | NeurIPS 2024 |
+| GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting| AAAI 2024|
 | Language in the Flow of Time: Time-Series-Paired Texts Weaved into a Unified Temporal Narrative | arXiv 25.02 |
 | Context is Key: A Benchmark for Forecasting with Essential Textual Information | arXiv 24.10 |
 | Beyond trend and periodicity: Guiding time series forecasting with textual cues | arXiv 24.05 |
