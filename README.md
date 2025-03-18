@@ -7,9 +7,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 </div>
-A curated list of papers and datasets in the emerging field of Multi-Modalities For Time Series Analysis Papers (MM4TSA).
+Time series analysis (TSA) is a longstanding research topic in the data mining community and has wide real-world significance. Compared to "richer" modalities such as language and vision, which have recently experienced explosive development and are densely connected, the time-series modality remains relatively underexplored and isolated. We notice that many recent TSA works have formed a new research field, i.e., Multiple Modalities for TSA (MM4TSA). In general, these MM4TSA works follow a common motivation: how TSA can benefit from multiple modalities. This survey is the first to offer a comprehensive review and a detailed outlook for this emerging field. Specifically, we systematically discuss three benefits: (1) reusing foundation models of other modalities for efficient TSA, (2) multimodal extension for enhanced TSA, and (3) cross-modality interaction for advanced TSA. We further group the works by the introduced modality type, including text, images, audio, tables, and others, within each perspective. Finally, we identify the gaps with future opportunities, including the reused modalities selections, heterogeneous modality combinations, and unseen tasks generalizations, corresponding to the three benefits. We release this up-to-date GitHub repository that includes key papers and resources.
 
-We will continue to update this paper list. If you find it helpful, please Star it or Cite Our Survey <br>
+🚀 We will continue to update this repo. If you find it helpful, please Star it or Cite Our Survey <br>
 
 ## Contributing
 
@@ -17,17 +17,17 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Citation
 
-If you find this repo useful, please cite our paper.
+If you find this survey useful, please cite our paper.
 
 ```
-@misc{liu2025evaluating1vs2,
-      title={Evaluating System 1 vs. 2 Reasoning Approaches for Zero-Shot Time-Series Forecasting: A Benchmark and Insights}, 
-      author={Haoxin Liu and Zhiyuan Zhao and Shiduo Li and B. Aditya Prakash},
+@misc{liu2025timeseriesanalysisbenefit,
+      title={How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook}, 
+      author={Haoxin Liu and Harshavardhan Kamarthi and Zhiyuan Zhao and Shangqing Xu and Shiyu Wang and Qingsong Wen and Tom Hartvigsen and Fei Wang and B. Aditya Prakash},
       year={2025},
-      eprint={2503.01895},
+      eprint={2503.11835},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.01895}, 
+      url={https://arxiv.org/abs/2503.11835}, 
 }
 ```
 
