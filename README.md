@@ -424,11 +424,11 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
-| Time-MMD | Time+Text | 9 Domains; Real Datasets (general context); Across More than 24 Years |
-| ChatTime | Time+Text | 3 Real Datasets (weather&date) |
-| CiK | Time+Text | 7 Domains; 71 Human-Designed Tasks |
-| ChatTS | Time+Text | Synthetic Method; 500+ Human-Labeled Samples |
-| TSQA | Time+Text | Multi-Task QA Format; 1.4k Human-Selected Samples |
+| [Time-MMD](https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e7768122f3eeec6d77cd2b424b72413-Abstract-Datasets_and_Benchmarks_Track.html) | Time+Text | 9 Domains; Real Datasets (general context); Across More than 24 Years |
+| [ChatTime](https://arxiv.org/abs/2412.11376) | Time+Text | 3 Real Datasets (weather&date) |
+| [CiK](https://arxiv.org/abs/2410.18959) | Time+Text | 7 Domains; 71 Human-Designed Tasks |
+| [ChatTS](https://arxiv.org/abs/2412.03104) | Time+Text | Synthetic Method; 500+ Human-Labeled Samples |
+| [TSQA](https://www.arxiv.org/abs/2503.01875) | Time+Text | Multi-Task QA Format; 1.4k Human-Selected Samples |
 
 ### 4.2 Financial Datasets
 
@@ -436,8 +436,8 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
-| FNSPID | Time+Text | Large-Scale Finance News; Across 24 Years |
-| FinBen | Time+Text | Bilingual; 42 Sub-Datasets; 8 Tasks |
+| [FNSPID](https://dl.acm.org/doi/abs/10.1145/3637528.3671629) | Time+Text | Large-Scale Finance News; Across 24 Years |
+| [FinBen](https://proceedings.neurips.cc/paper_files/paper/2024/hash/adb1d9fa8be4576d28703b396b82ba1b-Abstract-Datasets_and_Benchmarks_Track.html) | Time+Text | Bilingual; 42 Sub-Datasets; 8 Tasks |
 
 ### 4.3 Medical Datasets
 
@@ -445,8 +445,8 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
-| MIMIC | Time+Text+Image+Table | Multiple Medical Tasks; Expert-Labeled Data |
-| PTB-XL | Time+Text | Large-Scale Expert-Labeled ECG Data |
+| [MIMIC](https://paperswithcode.com/dataset/mimic-iii) | Time+Text+Image+Table | Multiple Medical Tasks; Expert-Labeled Data |
+| [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/) | Time+Text | Large-Scale Expert-Labeled ECG Data |
 
 ### 4.4 Spatial-Temporal Datasets
 
@@ -454,5 +454,5 @@ A curated list of papers in the emerging field of multi-modal time series analys
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
-| CityEval | Time+Text+Image | Multiple Urban Tasks, capable of Involving LLMs |
-| Terra | Time+Text+Image | Worldwide Grid Data across 45 Years |
+| [CityEval](https://arxiv.org/abs/2406.13948) | Time+Text+Image | Multiple Urban Tasks, capable of Involving LLMs |
+| [Terra](https://papers.nips.cc/paper_files/paper/2024/hash/7a6a7fbd1ee0c9684b3f919f79d129ef-Abstract-Datasets_and_Benchmarks_Track.html) | Time+Text+Image | Worldwide Grid Data across 45 Years |
