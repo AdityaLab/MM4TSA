@@ -120,6 +120,7 @@ If you find this survey useful, please cite our paper.
 
 | Title | Venue |
 |-------|-------|
+| DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts | EMNLP 2024 |
 | Repr2Seq: A Data-to-Text Generation Model for Time Series | IJCNN 2023 |
 | Insight miner: A time series analysis dataset for cross-domain alignment with natural language | NeurIPS 2023 AI for Science Workshop |
 | T 3: Domain-agnostic neural time-series narration | ICDM 2021 |
@@ -135,7 +136,6 @@ If you find this survey useful, please cite our paper.
 | Title | Venue |
 |-------|-------|
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
-| DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts | EMNLP 2024 |
 | Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement | arXiv 25.03 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Multi-Modal Forecaster: Jointly Predicting Time Series and Textual Data | arXiv 24.11 |
@@ -497,7 +497,7 @@ If you have any questions or suggestions, feel free to contact:
 hliu763@gatech.edu
 ## Acknowledgement
 
-This library is constructed based on the following repos:
+We refer to the following repos:
 
 https://github.com/ForestsKing/Awesome-Multimodal-Time-Series
 
