@@ -38,7 +38,7 @@ A curated list of papers in the emerging field of multi-modal time series analys
     - [3.4.2 Medical Time Series](#342-medical-time-series) - [Jump to table](#medical-time-series-papers-3)
     - [3.4.3 Financial Time Series](#343-financial-time-series) - [Jump to table](#financial-time-series-papers-3)
   - [3.5 Gaps and Outlooks](#35-gaps-and-outlooks) - [Jump to table](#gaps-and-outlooks-papers)
-- [4. Datasets for Multi-Modal Time Series Analysis](#4-datasets-for-multi-modal-time-series-analysis)
+- [4. Representative Multi-Modal Time-Series Datasets](#4-datasets-for-multi-modal-time-series-analysis)
   - [4.1 General Datasets](#41-general-datasets) - [Jump to table](#general-datasets-table)
   - [4.2 Financial Datasets](#42-financial-datasets) - [Jump to table](#financial-datasets-table)
   - [4.3 Medical Datasets](#43-medical-datasets) - [Jump to table](#medical-datasets-table)
