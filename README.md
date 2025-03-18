@@ -202,6 +202,7 @@ If you find this survey useful, please cite our paper.
 | Position: Empowering Time Series Reasoning with Multimodal LLMs|  arXiv 25.02 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Beyond Forecasting: Compositional Time Series Reasoning for End-to-End Task Execution | arXiv 24.10 |
+|Towards Time Series Reasoning with LLMs|  arXiv 24.09 |
 
 ## 2. Time+X
 
@@ -447,6 +448,7 @@ If you find this survey useful, please cite our paper.
 | Title | Venue |
 |-------|-------|
 | A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL25 |
+|Can LLMs Understand Time Series Anomalies?| ICLR 2025|
 | Vision-Enhanced Time Series Forecasting via Latent Diffusion Models | arXiv 25.02 |
 
 ## 4. Datasets for Multi-Modal Time Series Analysis
