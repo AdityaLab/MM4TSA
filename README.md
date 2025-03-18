@@ -330,6 +330,7 @@ If you find this survey useful, please cite our paper.
 | Chronos: Learning the language of time series | TMLR |
 | LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters | ACM Transactions on Intelligent Systems and Technology |
 | Large Language Models are Few-shot Multivariate Time Series Classifiers | arXiv 25.02 |
+|TimeCAP: Learning to Contextualize, Augment, and Predict Time Series Events with Large Language Model Agents| arXiv 25.02 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Large language models can deliver accurate and interpretable time series anomaly detection | arXiv 24.05 |
 | Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning | arXiv 24.02 |
