@@ -1,4 +1,4 @@
-v# Awesome Multi-Modal Time Series Analysis Papers (MM4TSA)
+# Awesome Multi-Modal Time Series Analysis Papers (MM4TSA)
 
 A curated list of papers in the emerging field of multi-modal time series analysis, where multiple data modalities are combined to enhance time series analysis tasks.
 
@@ -38,6 +38,11 @@ A curated list of papers in the emerging field of multi-modal time series analys
     - [3.4.2 Medical Time Series](#342-medical-time-series) - [Jump to table](#medical-time-series-papers-3)
     - [3.4.3 Financial Time Series](#343-financial-time-series) - [Jump to table](#financial-time-series-papers-3)
   - [3.5 Gaps and Outlooks](#35-gaps-and-outlooks) - [Jump to table](#gaps-and-outlooks-papers)
+- [4. Datasets for Multi-Modal Time Series Analysis](#4-datasets-for-multi-modal-time-series-analysis)
+  - [4.1 General Datasets](#41-general-datasets) - [Jump to table](#general-datasets-table)
+  - [4.2 Financial Datasets](#42-financial-datasets) - [Jump to table](#financial-datasets-table)
+  - [4.3 Medical Datasets](#43-medical-datasets) - [Jump to table](#medical-datasets-table)
+  - [4.4 Spatial-Temporal Datasets](#44-spatial-temporal-datasets) - [Jump to table](#spatial-temporal-datasets-table)
 
 ## 1. Time2X and X2Time
 
@@ -411,5 +416,43 @@ A curated list of papers in the emerging field of multi-modal time series analys
 | A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL25 |
 | Vision-Enhanced Time Series Forecasting via Latent Diffusion Models | arXiv 25.02 |
 
+## 4. Datasets for Multi-Modal Time Series Analysis
 
+### 4.1 General Datasets
 
+<a id='general-datasets-table'></a>
+
+| Dataset | Modalities | Highlights |
+|---------|------------|------------|
+| Time-MMD | Time+Text | 9 Domains; Real Datasets (general context); Across More than 24 Years |
+| ChatTime | Time+Text | 3 Real Datasets (weather&date) |
+| CiK | Time+Text | 7 Domains; 71 Human-Designed Tasks |
+| ChatTS | Time+Text | Synthetic Method; 500+ Human-Labeled Samples |
+| TSQA | Time+Text | Multi-Task QA Format; 1.4k Human-Selected Samples |
+
+### 4.2 Financial Datasets
+
+<a id='financial-datasets-table'></a>
+
+| Dataset | Modalities | Highlights |
+|---------|------------|------------|
+| FNSPID | Time+Text | Large-Scale Finance News; Across 24 Years |
+| FinBen | Time+Text | Bilingual; 42 Sub-Datasets; 8 Tasks |
+
+### 4.3 Medical Datasets
+
+<a id='medical-datasets-table'></a>
+
+| Dataset | Modalities | Highlights |
+|---------|------------|------------|
+| MIMIC | Time+Text+Image+Table | Multiple Medical Tasks; Expert-Labeled Data |
+| PTB-XL | Time+Text | Large-Scale Expert-Labeled ECG Data |
+
+### 4.4 Spatial-Temporal Datasets
+
+<a id='spatial-temporal-datasets-table'></a>
+
+| Dataset | Modalities | Highlights |
+|---------|------------|------------|
+| CityEval | Time+Text+Image | Multiple Urban Tasks, capable of Involving LLMs |
+| Terra | Time+Text+Image | Worldwide Grid Data across 45 Years |
