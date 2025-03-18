@@ -224,6 +224,8 @@ If you find this survey useful, please cite our paper.
 | Dual-Forecaster: A Multimodal Time Series Model Integrating Descriptive and Predictive Texts | Openreview |
 
 #### Classification
+| Title | Venue |
+|-------|-------|
 | Advancing time series classification with multimodal language modeling | arXiv 24.03 |
 | Hierarchical Multimodal LLMs with Semantic Space Alignment for Enhanced Time Series Classification | arXiv 24.10 |
 | Dualtime: A dual-adapter multimodal language model for time series representation | arXiv 24.06 |
