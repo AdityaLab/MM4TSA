@@ -7,9 +7,31 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 </div>
-A curated list of papers in the emerging field of multi-modal time series analysis, where multiple data modalities are combined to enhance time series analysis tasks.
+A curated list of papers and datasets in the emerging field of Multi-Modalities For Time Series Analysis Papers (MM4TSA).
 
-**Sorting Method**: Papers in each table are sorted by publication venue first (published papers take precedence over preprints), then by recency (newer arXiv preprints appear before older ones).
+We will continue to update this paper list. If you find it helpful, please Star it or Cite Our Survey <br>
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Citation
+
+If you find this repo useful, please cite our paper.
+
+```
+@misc{liu2025evaluating1vs2,
+      title={Evaluating System 1 vs. 2 Reasoning Approaches for Zero-Shot Time-Series Forecasting: A Benchmark and Insights}, 
+      author={Haoxin Liu and Zhiyuan Zhao and Shiduo Li and B. Aditya Prakash},
+      year={2025},
+      eprint={2503.01895},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2503.01895}, 
+}
+```
+
+---
 
 ## Table of Contents
 
