@@ -110,6 +110,7 @@ If you find this survey useful, please cite our paper.
 
 | Title | Venue |
 |-------|-------|
+|Inferring Event Descriptions from Time Series with Language Models| arXiv 25.03 |
 | Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop | arXiv 25.03 |
 | Xforecast: Evaluating natural language explanations for time series forecasting | arXiv 24.10 |
 | Large language models can deliver accurate and interpretable time series anomaly detection | arXiv 24.05 |
