@@ -184,8 +184,10 @@ If you find this survey useful, please cite our paper.
 
 | Title | Venue |
 |-------|-------|
-| Knowledge-augmented Financial Market Analysis and Report Generation | Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track |
+| Knowledge-augmented Financial Market Analysis and Report Generation | EMNLP 2024 Industry Track |
 | FinTral: A Family of GPT-4 Level Multimodal Financial Large Language Models | ACL 2024 Findings|
+| Long Text and Multi-Table Summarization: Dataset and Method | EMNLP 2022 Findings |
+| Neural abstractive summarization for long text and multiple tables | IEEE Transactions on Knowledge and Data Engineering |
 | Open-finllms: Open multimodal large language models for financial applications | arXiv 24.08 |
 | Multimodal gen-ai for fundamental investment research | arXiv 24.01 |
 
