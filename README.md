@@ -260,6 +260,8 @@ If you find this survey useful, please cite our paper.
 | Traffic congestion prediction using toll and route search log data | IEEE International Conference on Big Data (Big Data) 2022 |
 | Understanding city traffic dynamics utilizing sensor and textual observations | AAAI 2016  |
 | Citygpt: Empowering urban spatial cognition of large language models | arXiv 24.06 |
+| Where Would I Go Next? Large Language Models as Human Mobility Predictors | arXiv 23.08 |
+| Leveraging Language Foundation Models for Human Mobility Forecasting | arXiv 22.09 |
 
 #### 2.3.2 Medical Time Series
 
