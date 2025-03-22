@@ -13,15 +13,16 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 
 
-🚀 We will continue to update this repo. If you find it helpful, please Star it or Cite Our Survey <br>
-
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+🚀 We will continue to update this repo. If you find it helpful, please Star it or Cite Our Survey.
+
+🤝 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Citation
 
-If you find this survey useful, please cite our paper.
+🙏 If you find this survey useful, please consider citing our paper.
+
 
 ```
 @misc{liu2025timeseriesanalysisbenefit,
