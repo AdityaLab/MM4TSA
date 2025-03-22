@@ -38,6 +38,9 @@ If you find this survey useful, please cite our paper.
 
 ---
 
+
+---
+
 ## Table of Contents
 
 - [1. Time2X and X2Time](#1-time2x-and-x2time)
@@ -48,7 +51,7 @@ If you find this survey useful, please cite our paper.
     - [1.2.1 Explanation](#121-explanation)
     - [1.2.2 Captioning](#122-captioning)
   - [1.3 Text to Time + Time to Text](#13-text-to-time-+-time-to-text)
-  - [1.4 Other Cross-Modality Works](#14-other-cross-modality-orks) 
+  - [1.4 Other Cross-Modality Works](#14-other-cross-modality-works)
   - [1.5 Domain Specific Applications](#15-domain-specific-applications)
     - [1.5.1 Spatial-Temporal Data](#151-spatial-temporal-data)
     - [1.5.2 Medical Time Series](#152-medical-time-series)
@@ -63,19 +66,20 @@ If you find this survey useful, please cite our paper.
     - [2.3.3 Financial Time Series](#233-financial-time-series)
   - [2.4 Gaps and Outlooks](#24-gaps-and-outlooks)
 - [3. TimeAsX](#3-timeasx)
-  - [3.1 Time Series as Text](#31-time-series-as-text) 
-  - [3.2 Time Series as Image](#32-time-series-as-image) 
-  - [3.3 Time Series as Other Modalities](#33-time-series-as-other-modalities)
-    - [3.3.1 Table](#331-tabular-data) 
-    - [3.3.2 Audio](#332-audio-data) 
+  - [3.1 Time Series as Text](#31-time-series-as-text)
+  - [3.2 Time Series as Image](#32-time-series-as-image)
+  - [3.3 Time Series as Other Modalities](#3-time-series-as-other-modalities)
+    - [3.3.1 Tabular Data](#331-tabular-data)
+    - [3.3.2 Audio Data](#332-audio-data)
   - [3.4 Domain Specific Applications](#34-domain-specific-applications)
-    - [3.4.1 Spatial-Temporal Data](#341-spatial-temporal-data) 
-    - [3.4.2 Medical Time Series](#342-medical-time-series) 
-    - [3.4.3 Financial Time Series](#343-financial-time-series) 
+    - [3.4.1 Spatial-Temporal Data](#341-spatial-temporal-data)
+    - [3.4.2 Medical Time Series](#342-medical-time-series)
+    - [3.4.3 Financial Time Series](#343-financial-time-series)
   - [3.5 Gaps and Outlooks](#35-gaps-and-outlooks)
-- [4. Representative Multi-Modal Time-Series Datasets](#4-datasets-for-multi-modal-time-series-analysis)
-  - [4.1 General Datasets](#41-general-datasets) 
-  - [4.2 Financial Datasets](#42-financial-datasets) 
+    - [3.5.1 Reuse Which Modality](#351-reuse-which-modality)
+- [4. Datasets for Multi-Modal Time Series Analysis](#4-datasets-for-multi-modal-time-series-analysis)
+  - [4.1 General Datasets](#41-general-datasets)
+  - [4.2 Financial Datasets](#42-financial-datasets)
   - [4.3 Medical Datasets](#43-medical-datasets)
   - [4.4 Spatial-Temporal Datasets](#44-spatial-temporal-datasets)
 
@@ -85,7 +89,7 @@ If you find this survey useful, please cite our paper.
 
 #### 1.1.1 Generation
 
-<a id='generation-papers-1'></a>
+<a id="111-generation"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -95,7 +99,7 @@ If you find this survey useful, please cite our paper.
 
 #### 1.1.2 Retrieval
 
-<a id='retrieval-papers-1'></a>
+<a id="112-retrieval"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -107,18 +111,18 @@ If you find this survey useful, please cite our paper.
 
 #### 1.2.1 Explanation
 
-<a id='explanation-papers-1'></a>
+<a id="121-explanation"></a>
 
 | Title | Venue |
 |-------|-------|
-|Inferring Event Descriptions from Time Series with Language Models| arXiv 25.03 |
+| Inferring Event Descriptions from Time Series with Language Models | arXiv 25.03 |
 | Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop | arXiv 25.03 |
 | Xforecast: Evaluating natural language explanations for time series forecasting | arXiv 24.10 |
 | Large language models can deliver accurate and interpretable time series anomaly detection | arXiv 24.05 |
 
 #### 1.2.2 Captioning
 
-<a id='captioning-papers-1'></a>
+<a id="122-captioning"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -132,7 +136,7 @@ If you find this survey useful, please cite our paper.
 
 ### 1.3 Text to Time + Time to Text
 
-<a id='text-to-time--time-to-text-papers'></a>
+<a id="13-text-to-time-+-time-to-text"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -143,7 +147,7 @@ If you find this survey useful, please cite our paper.
 
 ### 1.4 Other Cross-Modality Works
 
-<a id='Other Cross-Modality Works'></a>
+<a id="14-other-cross-modality-works"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -153,7 +157,7 @@ If you find this survey useful, please cite our paper.
 
 #### 1.5.1 Spatial-Temporal Data
 
-<a id='spatial-temporal-data-papers-1'></a>
+<a id="151-spatial-temporal-data"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -165,7 +169,7 @@ If you find this survey useful, please cite our paper.
 
 #### 1.5.2 Medical Time Series
 
-<a id='medical-time-series-papers-1'></a>
+<a id="152-medical-time-series"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -189,7 +193,7 @@ If you find this survey useful, please cite our paper.
 
 #### 1.5.3 Financial Time Series
 
-<a id='financial-time-series-papers-1'></a>
+<a id="153-financial-time-series"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -202,25 +206,27 @@ If you find this survey useful, please cite our paper.
 
 ### 1.6 Gaps and Outlooks
 
+<a id="16-gaps-and-outlooks"></a>
+
 #### 1.6.1 Unseen Tasks: Introducing Reasoning
 
-<a id='unseen-tasks-papers-1'></a>
+<a id="unseen-tasks-papers-1"></a>
 
 | Title | Venue |
 |-------|-------|
 | A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL 2025 |
 | Evaluating System 1 vs. 2 Reasoning Approaches for Zero-Shot Time-Series Forecasting: A Benchmark and Insights | arXiv 25.03 |
-| Position: Empowering Time Series Reasoning with Multimodal LLMs|  arXiv 25.02 |
+| Position: Empowering Time Series Reasoning with Multimodal LLMs | arXiv 25.02 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Beyond Forecasting: Compositional Time Series Reasoning for End-to-End Task Execution | arXiv 24.10 |
-|Towards Time Series Reasoning with LLMs|  arXiv 24.09 |
+| Towards Time Series Reasoning with LLMs | arXiv 24.09 |
 
 ## 2. Time+X
 
 ### 2.1 Time Series + Text
 
 *we list papers using dynamic text especially with exogenous information
-<a id='time-series--text-papers'></a>
+<a id="21-time-series-+-text"></a>
 
 #### Forecasting (& Imputation)
 | Title | Venue |
@@ -228,7 +234,7 @@ If you find this survey useful, please cite our paper.
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis | NeurIPS 2024 |
 | From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection | NeurIPS 2024 |
-| GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting| AAAI 2024|
+| GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting | AAAI 2024 |
 | Language in the Flow of Time: Time-Series-Paired Texts Weaved into a Unified Temporal Narrative | arXiv 25.02 |
 | Context is Key: A Benchmark for Forecasting with Essential Textual Information | arXiv 24.10 |
 | Beyond trend and periodicity: Guiding time series forecasting with textual cues | arXiv 24.05 |
@@ -241,10 +247,9 @@ If you find this survey useful, please cite our paper.
 | Hierarchical Multimodal LLMs with Semantic Space Alignment for Enhanced Time Series Classification | arXiv 24.10 |
 | Dualtime: A dual-adapter multimodal language model for time series representation | arXiv 24.06 |
 
-
 ### 2.2 Time Series + Other Modalities
 
-<a id='time-series--other-modalities-papers'></a>
+<a id="22-time-series-+-other-modalities"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -255,11 +260,11 @@ If you find this survey useful, please cite our paper.
 
 #### 2.3.1 Spatial-Temporal Data
 
-<a id='spatial-temporal-data-papers-2'></a>
+<a id="231-spatial-temporal-data"></a>
 
 | Title | Venue |
 |-------|-------|
-| Terra: A Multimodal Spatio-Temporal Dataset Spanning the Earth |  NeurIPS 2024 |
+| Terra: A Multimodal Spatio-Temporal Dataset Spanning the Earth | NeurIPS 2024 |
 | BjTT: A large-scale multimodal dataset for traffic prediction | IEEE Transactions on Intelligent Transportation Systems |
 | Event Traffic Forecasting with Sparse Multimodal Data | Proceedings of the 32nd ACM International Conference on Multimedia 2024 |
 | Mmst-vit: Climate change-aware crop yield prediction via multi-modal spatial-temporal vision transformer | CVPR 2023 |
@@ -267,37 +272,36 @@ If you find this survey useful, please cite our paper.
 | Urban informal settlements classification via a transformer-based spatial-temporal fusion network using multimodal remote sensing and time-series human activity data | International Journal of Applied Earth Observation and Geoinformation |
 | Spatial-temporal attention-based convolutional network with text and numerical information for stock price prediction | Neural Computing and Applications |
 | Traffic congestion prediction using toll and route search log data | IEEE International Conference on Big Data (Big Data) 2022 |
-| Understanding city traffic dynamics utilizing sensor and textual observations | AAAI 2016  |
+| Understanding city traffic dynamics utilizing sensor and textual observations | AAAI 2016 |
 | Citygpt: Empowering urban spatial cognition of large language models | arXiv 24.06 |
 | Where Would I Go Next? Large Language Models as Human Mobility Predictors | arXiv 23.08 |
 | Leveraging Language Foundation Models for Human Mobility Forecasting | arXiv 22.09 |
 
 #### 2.3.2 Medical Time Series
 
-<a id='medical-time-series-papers-2'></a>
+<a id="232-medical-time-series"></a>
 
 | Title | Venue |
 |-------|-------|
 | Addressing asynchronicity in clinical multimodal fusion via individualized chest x-ray generation | NeurIPS 2024 |
 | EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation | CIKM 2024 |
 | Improving medical predictions by irregular multimodal electronic health records modeling | ICML 2023 |
-| Multimodal pretraining of medical time series and notes | Machine Learning for Health (ML4H) 2023|
+| Multimodal pretraining of medical time series and notes | Machine Learning for Health (ML4H) 2023 |
 | Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention | Machine Learning for Health (ML4H) 2023 |
 | MedFuse: Multi-modal fusion with clinical time-series data and chest X-ray images | Machine Learning for Health (ML4H) 2022 |
 | Miracle: Causally-aware imputation via learning missing data mechanisms | NeurIPS 2021 |
-| How to leverage the multimodal EHR data for better medical prediction? | Conference on Empirical Methods in Natural Language Processing 2021|
+| How to leverage the multimodal EHR data for better medical prediction? | Conference on Empirical Methods in Natural Language Processing 2021 |
 | Deep multi-modal intermediate fusion of clinical record and time series data in mortality prediction | Frontiers in Molecular Biosciences |
 | Integrated multimodal artificial intelligence framework for healthcare applications | NPJ digital medicine |
 | PTB-XL, a large publicly available electrocardiography dataset | Scientific data |
 | Fusion of medical imaging and electronic health records using deep learning: a systematic review and implementation guidelines | NPJ digital medicine |
 | Arbitrary Data as Images: Fusion of Patient Data Across Modalities and Irregular Intervals with Vision Transformers | arXiv 25.01 |
 | Towards Predicting Temporal Changes in a Patient's Chest X-ray Images based on Electronic Health Records | arXiv 24.09 |
-| Multimodal risk prediction with physiological signals, medical images and clinical notes | medrxiv 23.05|
-
+| Multimodal risk prediction with physiological signals, medical images and clinical notes | medrxiv 23.05 |
 
 #### 2.3.3 Financial Time Series
 
-<a id='financial-time-series-papers-2'></a>
+<a id="233-financial-time-series"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -306,7 +310,7 @@ If you find this survey useful, please cite our paper.
 | Multimodal multiscale dynamic graph convolution networks for stock price prediction | Pattern Recognition |
 | Multi-Modal Financial Time-Series Retrieval Through Latent Space Projections | Proceedings of the Fourth ACM International Conference on AI in Finance |
 | Natural language based financial forecasting: a survey | Artificial Intelligence Review |
-| Financial analysis, planning \& forecasting: Theory and application | Unknown |
+| Financial analysis, planning & forecasting: Theory and application | Unknown |
 | Text2timeseries: Enhancing financial forecasting through time series prediction updates with event-driven insights from large language models | arXiv 24.07 |
 | Natural language processing and multimodal stock price prediction | arXiv 24.01 |
 | Modality-aware Transformer for Financial Time series Forecasting | arXiv 23.10 |
@@ -316,9 +320,11 @@ If you find this survey useful, please cite our paper.
 
 ### 2.4 Gaps and Outlooks
 
+<a id="24-gaps-and-outlooks"></a>
+
 #### 2.4.1 Heterogeneous Modality Combinations
 
-<a id='heterogeneous-modality-combinations-papers-2'></a>
+<a id="heterogeneous-modality-combinations-papers-2"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -329,12 +335,12 @@ If you find this survey useful, please cite our paper.
 
 ### 3.1 Time Series as Text
 
-<a id='time-series-as-text-papers'></a>
+<a id="31-time-series-as-text"></a>
 
 | Title | Venue |
 |-------|-------|
 | Context-Alignment: Activating and Enhancing LLM Capabilities in Time Series | ICLR 2025 |
-| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025|
+| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Exploiting Language Power for Time Series Forecasting with Exogenous Variables | THE WEB CONFERENCE 2025 |
 | Lstprompt: Large language models as zero-shot time series forecasters by long-short-term prompting | ACL 2024 Findings |
 | TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting | ICLR 2024 |
@@ -345,27 +351,26 @@ If you find this survey useful, please cite our paper.
 | S2 IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting | ICML 2024 |
 | Large language models are zero-shot time series forecasters | NeurIPS 2023 |
 | One fits all: Power general time series analysis by pretrained lm | NeurIPS 2023 |
-| PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting| IEEE Transactions on Knowledge and Data Engineering |
+| PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting | IEEE Transactions on Knowledge and Data Engineering |
 | Chronos: Learning the language of time series | TMLR |
 | LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters | ACM Transactions on Intelligent Systems and Technology |
 | Large Language Models are Few-shot Multivariate Time Series Classifiers | arXiv 25.02 |
-|TimeCAP: Learning to Contextualize, Augment, and Predict Time Series Events with Large Language Model Agents| arXiv 25.02 |
+| TimeCAP: Learning to Contextualize, Augment, and Predict Time Series Events with Large Language Model Agents | arXiv 25.02 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Large language models can deliver accurate and interpretable time series anomaly detection | arXiv 24.05 |
 | Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning | arXiv 24.02 |
 | Lag-llama: Towards foundation models for time series forecasting | arXiv 23.10 |
 
-
 ### 3.2 Time Series as Image
 
-<a id='time-series-as-image-papers'></a>
+<a id="32-time-series-as-image"></a>
 
 | Title | Venue |
 |-------|-------|
 | CAFO: Feature-Centric Explanation on Time Series Classification | KDD 2024 |
-|TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis | ICLR 2024 |
+| TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis | ICLR 2024 |
 | Towards total recall in industrial anomaly detection | CVPR 2022 |
-| Deep video prediction for time series forecasting | Proceedings of the Second ACM International Conference on AI in Finance 2021|
+| Deep video prediction for time series forecasting | Proceedings of the Second ACM International Conference on AI in Finance 2021 |
 | Forecasting with time series imaging | Expert Systems with Applications |
 | Can Multimodal LLMs Perform Time Series Anomaly Detection? | arXiv 25.02 |
 | Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting | arXiv 25.02 |
@@ -382,7 +387,7 @@ If you find this survey useful, please cite our paper.
 
 #### 3.3.1 Tabular Data
 
-<a id='tabular-data-papers-3'></a>
+<a id="331-tabular-data"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -393,23 +398,23 @@ If you find this survey useful, please cite our paper.
 
 #### 3.3.2 Audio Data
 
-<a id='audio-data-papers-3'></a>
+<a id="332-audio-data"></a>
 
 | Title | Venue |
 |-------|-------|
 | Ssast: Self-supervised audio spectrogram transformer | AAAI 2022 |
-| T-wavenet: a tree-structured wavelet neural network for time series signal analysis | ICLR 2022|
+| T-wavenet: a tree-structured wavelet neural network for time series signal analysis | ICLR 2022 |
 | Voice2Series: Reprogramming Acoustic Models for Time Series Classification | arXiv 21.06 |
 
 ### 3.4 Domain Specific Applications
 
 #### 3.4.1 Spatial-Temporal Data
 
-<a id='spatial-temporal-data-papers-3'></a>
+<a id="341-spatial-temporal-data"></a>
 
 | Title | Venue |
 |-------|-------|
-| Spatial-temporal large language model for traffic prediction | 25th IEEE International Conference on Mobile Data Management (MDM) 2024  |
+| Spatial-temporal large language model for traffic prediction | 25th IEEE International Conference on Mobile Data Management (MDM) 2024 |
 | Unist: A prompt-empowered universal model for urban spatio-temporal prediction | KDD 2024 |
 | Urbangpt: Spatio-temporal large language models | KDD 2024 |
 | Vmrnn: Integrating vision mamba and lstm for efficient and accurate spatiotemporal forecasting | CVPR 2024 |
@@ -424,12 +429,12 @@ If you find this survey useful, please cite our paper.
 
 #### 3.4.2 Medical Time Series
 
-<a id='medical-time-series-papers-3'></a>
+<a id="342-medical-time-series"></a>
 
 | Title | Venue |
 |-------|-------|
-| ECG-LLM: Leveraging Large Language Models for Low-Quality ECG Signal Restoration | IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2024  |
-| Multimodal llms for health grounded in individual-specific data | Workshop on Machine Learning for Multimodal Healthcare Data 2023|
+| ECG-LLM: Leveraging Large Language Models for Low-Quality ECG Signal Restoration | IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2024 |
+| Multimodal llms for health grounded in individual-specific data | Workshop on Machine Learning for Multimodal Healthcare Data 2023 |
 | ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis | arXiv 24.08 |
 | Medtsllm: Leveraging llms for multimodal medical time series analysis | arXiv 24.08 |
 | Dualtime: A dual-adapter multimodal language model for time series representation | arXiv 24.06 |
@@ -437,7 +442,7 @@ If you find this survey useful, please cite our paper.
 
 #### 3.4.3 Financial Time Series
 
-<a id='financial-time-series-papers-3'></a>
+<a id="343-financial-time-series"></a>
 
 | Title | Venue |
 |-------|-------|
@@ -457,21 +462,23 @@ If you find this survey useful, please cite our paper.
 
 ### 3.5 Gaps and Outlooks
 
+<a id="35-gaps-and-outlooks"></a>
+
 #### 3.5.1 Reuse Which Modality
 
-<a id='reuse-which-modality-papers-3'></a>
+<a id="351-reuse-which-modality"></a>
 
 | Title | Venue |
 |-------|-------|
 | A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL25 |
-|Can LLMs Understand Time Series Anomalies?| ICLR 2025|
+| Can LLMs Understand Time Series Anomalies? | ICLR 2025 |
 | Vision-Enhanced Time Series Forecasting via Latent Diffusion Models | arXiv 25.02 |
 
 ## 4. Datasets for Multi-Modal Time Series Analysis
 
 ### 4.1 General Datasets
 
-<a id='general-datasets-table'></a>
+<a id="41-general-datasets"></a>
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
@@ -483,7 +490,7 @@ If you find this survey useful, please cite our paper.
 
 ### 4.2 Financial Datasets
 
-<a id='financial-datasets-table'></a>
+<a id="42-financial-datasets"></a>
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
@@ -492,7 +499,7 @@ If you find this survey useful, please cite our paper.
 
 ### 4.3 Medical Datasets
 
-<a id='medical-datasets-table'></a>
+<a id="43-medical-datasets"></a>
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
@@ -501,7 +508,7 @@ If you find this survey useful, please cite our paper.
 
 ### 4.4 Spatial-Temporal Datasets
 
-<a id='spatial-temporal-datasets-table'></a>
+<a id="44-spatial-temporal-datasets"></a>
 
 | Dataset | Modalities | Highlights |
 |---------|------------|------------|
@@ -518,5 +525,6 @@ We refer to the following repos:
 https://github.com/ForestsKing/Awesome-Multimodal-Time-Series
 
 https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM
+
 
 
