@@ -47,12 +47,13 @@ If you find this survey useful, please cite our paper.
   - [1.2 Time Series to Text](#12-time-series-to-text)
     - [1.2.1 Explanation](#121-explanation)
     - [1.2.2 Captioning](#122-captioning)
-  - [1.3 Text to Time + Time to Text](#13-text-to-time-+-time-to-text) 
-  - [1.4 Domain Specific Applications](#14-domain-specific-applications)
-    - [1.4.1 Spatial-Temporal Data](#141-spatial-temporal-data)
-    - [1.4.2 Medical Time Series](#142-medical-time-series)
-    - [1.4.3 Financial Time Series](#143-financial-time-series)
-  - [1.5 Gaps and Outlooks](#15-gaps-and-outlooks)
+  - [1.3 Text to Time + Time to Text](#13-text-to-time-+-time-to-text)
+  - [1.4 Other Cross-Modality Works](#14-other-cross-modality-orks) 
+  - [1.5 Domain Specific Applications](#15-domain-specific-applications)
+    - [1.5.1 Spatial-Temporal Data](#151-spatial-temporal-data)
+    - [1.5.2 Medical Time Series](#152-medical-time-series)
+    - [1.5.3 Financial Time Series](#153-financial-time-series)
+  - [1.6 Gaps and Outlooks](#16-gaps-and-outlooks)
 - [2. Time+X](#2-time+x)
   - [2.1 Time Series + Text](#21-time-series-+-text)
   - [2.2 Time Series + Other Modalities](#22-time-series-+-other-modalities)
@@ -65,8 +66,8 @@ If you find this survey useful, please cite our paper.
   - [3.1 Time Series as Text](#31-time-series-as-text) 
   - [3.2 Time Series as Image](#32-time-series-as-image) 
   - [3.3 Time Series as Other Modalities](#33-time-series-as-other-modalities)
-    - [3.3.1 Tabular Data](#331-tabular-data) 
-    - [3.3.2 Audio Data](#332-audio-data) 
+    - [3.3.1 Table](#331-tabular-data) 
+    - [3.3.2 Audio](#332-audio-data) 
   - [3.4 Domain Specific Applications](#34-domain-specific-applications)
     - [3.4.1 Spatial-Temporal Data](#341-spatial-temporal-data) 
     - [3.4.2 Medical Time Series](#342-medical-time-series) 
@@ -121,7 +122,6 @@ If you find this survey useful, please cite our paper.
 
 | Title | Venue |
 |-------|-------|
-| DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts | EMNLP 2024 |
 | Repr2Seq: A Data-to-Text Generation Model for Time Series | IJCNN 2023 |
 | Insight miner: A time series analysis dataset for cross-domain alignment with natural language | NeurIPS 2023 AI for Science Workshop |
 | T 3: Domain-agnostic neural time-series narration | ICDM 2021 |
@@ -141,9 +141,17 @@ If you find this survey useful, please cite our paper.
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
 | Multi-Modal Forecaster: Jointly Predicting Time Series and Textual Data | arXiv 24.11 |
 
-### 1.4 Domain Specific Applications
+### 1.4 Other Cross-Modality Works
 
-#### 1.4.1 Spatial-Temporal Data
+<a id='Other Cross-Modality Works'></a>
+
+| Title | Venue |
+|-------|-------|
+| DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts | EMNLP 2024 |
+
+### 1.5 Domain Specific Applications
+
+#### 1.5.1 Spatial-Temporal Data
 
 <a id='spatial-temporal-data-papers-1'></a>
 
@@ -155,7 +163,7 @@ If you find this survey useful, please cite our paper.
 | Spatial temporal data visualization in emergency management: a view from data-driven decision | Proceedings of the 3rd ACM SIGSPATIAL International Workshop on the Use of GIS in Emergency Management |
 | Teochat: A large vision-language assistant for temporal earth observation data | arXiv 24.10 |
 
-#### 1.4.2 Medical Time Series
+#### 1.5.2 Medical Time Series
 
 <a id='medical-time-series-papers-1'></a>
 
@@ -179,7 +187,7 @@ If you find this survey useful, please cite our paper.
 | Electrocardiogram instruction tuning for report generation | arXiv 2024.03 |
 | BioSignal Copilot: Leveraging the power of LLMs in drafting reports for biomedical signals | medRxiv 23.06 |
 
-#### 1.4.3 Financial Time Series
+#### 1.5.3 Financial Time Series
 
 <a id='financial-time-series-papers-1'></a>
 
@@ -192,9 +200,9 @@ If you find this survey useful, please cite our paper.
 | Open-finllms: Open multimodal large language models for financial applications | arXiv 24.08 |
 | Multimodal gen-ai for fundamental investment research | arXiv 24.01 |
 
-### 1.5 Gaps and Outlooks
+### 1.6 Gaps and Outlooks
 
-#### 1.5.1 Unseen Tasks: Introducing Reasoning
+#### 1.6.1 Unseen Tasks: Introducing Reasoning
 
 <a id='unseen-tasks-papers-1'></a>
 
@@ -332,6 +340,7 @@ If you find this survey useful, please cite our paper.
 | TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting | ICLR 2024 |
 | TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series | ICLR 2024 |
 | Time-LLM: Time Series Forecasting by Reprogramming Large Language Models | ICLR 2024 |
+| Are language models actually useful for time series forecasting? | NeurIPS 2024 |
 | Autotimes: Autoregressive time series forecasters via large language models | NeurIPS 2024 |
 | S2 IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting | ICML 2024 |
 | Large language models are zero-shot time series forecasters | NeurIPS 2023 |
