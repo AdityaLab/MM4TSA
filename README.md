@@ -13,6 +13,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 <div align="center">
     <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_1.jpg" width="500">
+  <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_2.jpg" width="500">
 </div>
 
 
