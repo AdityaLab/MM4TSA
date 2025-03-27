@@ -10,7 +10,7 @@
 <div align="center">
 
 **[<a href="https://mp.weixin.qq.com/s/DUgaWPuf0g5EdUlGulADWA">中文解读1</a>]**
-**[<a href="https://mp.weixin.qq.com/s/ytGc3c_ZaPpoz2pNsydH3w">中文解读1</a>]**
+**[<a href="https://mp.weixin.qq.com/s/ytGc3c_ZaPpoz2pNsydH3w">中文解读2</a>]**
 
 </div>
 
