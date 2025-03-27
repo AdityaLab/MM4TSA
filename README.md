@@ -31,7 +31,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 ## Citation
 
-🙏 If you find this survey useful, please consider citing our paper. 🙏
+🤗 If you find this survey useful, please consider citing our paper. 🤗
 
 
 ```
