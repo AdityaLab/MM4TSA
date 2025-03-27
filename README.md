@@ -12,7 +12,7 @@
 Time series analysis (TSA) is a longstanding research topic in the data mining community and has wide real-world significance. Compared to "richer" modalities such as language and vision, which have recently experienced explosive development and are densely connected, the time-series modality remains relatively underexplored and isolated. We notice that many recent TSA works have formed a new research field, i.e., Multiple Modalities for TSA (MM4TSA). In general, these MM4TSA works follow a common motivation: how TSA can benefit from multiple modalities. This survey is the first to offer a comprehensive review and a detailed outlook for this emerging field. Specifically, we systematically discuss three benefits: (1) reusing foundation models of other modalities for efficient TSA, (2) multimodal extension for enhanced TSA, and (3) cross-modality interaction for advanced TSA. We further group the works by the introduced modality type, including text, images, audio, tables, and others, within each perspective. Finally, we identify the gaps with future opportunities, including the reused modalities selections, heterogeneous modality combinations, and unseen tasks generalizations, corresponding to the three benefits. We release this up-to-date GitHub repository that includes key papers and resources. More details please check our <a href="https://arxiv.org/abs/2503.11835"><strong>survey</strong></a>.
 
 <div align="center">
-    <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_1.jpg" width="400">
+    <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_1.jpg" width="450">
   <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_2.jpg" width="500">
 </div>
 
