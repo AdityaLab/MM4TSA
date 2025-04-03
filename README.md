@@ -5,7 +5,9 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/PRs-Welcome-green" alt="PRs Welcome">
-  <a href="https://arxiv.org/abs/2503.11835"><img src="https://img.shields.io/badge/arXiv-2503.11835-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2303.11835">
+  <img src="https://img.shields.io/badge/arXiv-2303.11835-b31b1b.svg" alt="arXiv">
+</a>
 </p>
 
 <p align="center">
