@@ -18,7 +18,7 @@
 ---
 
 ## News
-- **2025-09-30 — ICML 2025 Paper Updated**.
+- 🔥 **ICML 2025 Paper Updated**.
 
 ---
 
