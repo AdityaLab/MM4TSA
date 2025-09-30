@@ -1,52 +1,3 @@
-<div align="center">
-  <h1>Awesome Multi-Modalities For Time Series Analysis Papers (MM4TSA)</h1>
-</div>
-
-<p align="center">
-  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/PRs-Welcome-green" alt="PRs Welcome">
-  <a href="https://arxiv.org/abs/2303.11835">
-  <img src="https://img.shields.io/badge/arXiv-2303.11835-b31b1b.svg" alt="arXiv">
-</a>
-</p>
-
-<p align="center">
-  <strong><a href="https://mp.weixin.qq.com/s/DUgaWPuf0g5EdUlGulADWA">中文解读1</a></strong>
-  <strong><a href="https://mp.weixin.qq.com/s/ytGc3c_ZaPpoz2pNsydH3w">中文解读2</a></strong>
-</p>
-
----
-Time series analysis (TSA) is a longstanding research topic in the data mining community and has wide real-world significance. Compared to "richer" modalities such as language and vision, which have recently experienced explosive development and are densely connected, the time-series modality remains relatively underexplored and isolated. We notice that many recent TSA works have formed a new research field, i.e., Multiple Modalities for TSA (MM4TSA). In general, these MM4TSA works follow a common motivation: how TSA can benefit from multiple modalities. This survey is the first to offer a comprehensive review and a detailed outlook for this emerging field. Specifically, we systematically discuss three benefits: (1) reusing foundation models of other modalities for efficient TSA, (2) multimodal extension for enhanced TSA, and (3) cross-modality interaction for advanced TSA. We further group the works by the introduced modality type, including text, images, audio, tables, and others, within each perspective. Finally, we identify the gaps with future opportunities, including the reused modalities selections, heterogeneous modality combinations, and unseen tasks generalizations, corresponding to the three benefits. We release this up-to-date GitHub repository that includes key papers and resources. More details please check our <a href="https://arxiv.org/abs/2503.11835"><strong>survey</strong></a>.
-
-<div align="center">
-    <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_1_1.jpg" width="447">
-  <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_2.jpg" width="500">
-</div>
-
-
-## Contributing
-
-🚀 We will continue to update this repo. If you find it helpful, please Star it or Cite Our Survey.
-
-🤝 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Citation
-
-🤗 If you find this survey useful, please consider citing our paper. 🤗
-
-
-```
-@misc{liu2025timeseriesanalysisbenefit,
-      title={How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook}, 
-      author={Haoxin Liu and Harshavardhan Kamarthi and Zhiyuan Zhao and Shangqing Xu and Shiyu Wang and Qingsong Wen and Tom Hartvigsen and Fei Wang and B. Aditya Prakash},
-      year={2025},
-      eprint={2503.11835},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.11835}, 
-}
-```
-
 
 ---
 
@@ -102,6 +53,8 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 | Title | Venue |
 |-------|-------|
+| VerbalTS: Generating Time Series from Texts | ICML 2025 |
+| BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling | ICML 2025 |
 | Language Models Still Struggle to Zero-shot Reason about Time Series | EMNLP 2024 Findings |
 | DiffuSETS: 12-lead ECG Generation Conditioned on Clinical Text Reports and Patient-Specific Information | arXiv 25.01 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
@@ -124,6 +77,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 | Title | Venue |
 |-------|-------|
+| TIMING: Temporality-Aware Integrated Gradients for Time Series Explanation | ICML 2025 |
 | Inferring Event Descriptions from Time Series with Language Models | arXiv 25.03 |
 | Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop | arXiv 25.03 |
 | Xforecast: Evaluating natural language explanations for time series forecasting | arXiv 24.10 |
@@ -149,6 +103,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 | Title | Venue |
 |-------|-------|
+| ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset | ICML 2025 |
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement | arXiv 25.03 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
@@ -235,11 +190,14 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 ### 2.1 Time Series + Text
 
 *we list papers using dynamic text especially with exogenous information
+
 <a id="21-time-series-+-text"></a>
 
 #### Forecasting (& Imputation)
+
 | Title | Venue |
 |-------|-------|
+| LangTime: A Language-Guided Unified Model for Time Series Forecasting with Proximal Policy Optimization | ICML 2025 |
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis | NeurIPS 2024 |
 | From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection | NeurIPS 2024 |
@@ -250,6 +208,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 | Dual-Forecaster: A Multimodal Time Series Model Integrating Descriptive and Predictive Texts | Openreview |
 
 #### Classification
+
 | Title | Venue |
 |-------|-------|
 | Advancing time series classification with multimodal language modeling | arXiv 24.03 |
@@ -295,11 +254,11 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 | Addressing asynchronicity in clinical multimodal fusion via individualized chest x-ray generation | NeurIPS 2024 |
 | EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation | CIKM 2024 |
 | Improving medical predictions by irregular multimodal electronic health records modeling | ICML 2023 |
-| Multimodal pretraining of medical time series and notes | Machine Learning for Health (ML4H) 2023 |
-| Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention | Machine Learning for Health (ML4H) 2023 |
-| MedFuse: Multi-modal fusion with clinical time-series data and chest X-ray images | Machine Learning for Health (ML4H) 2022 |
+| Multimodal pretraining of medical time series and notes | ML4H 2023 |
+| Learning missing modal electronic health records with unified multi-modal data embedding and modality-aware attention | ML4H 2023 |
+| MedFuse: Multi-modal fusion with clinical time-series data and chest X-ray images | ML4H 2022 |
 | Miracle: Causally-aware imputation via learning missing data mechanisms | NeurIPS 2021 |
-| How to leverage the multimodal EHR data for better medical prediction? | Conference on Empirical Methods in Natural Language Processing 2021 |
+| How to leverage the multimodal EHR data for better medical prediction? | EMNLP 2021 |
 | Deep multi-modal intermediate fusion of clinical record and time series data in mortality prediction | Frontiers in Molecular Biosciences |
 | Integrated multimodal artificial intelligence framework for healthcare applications | NPJ digital medicine |
 | PTB-XL, a large publicly available electrocardiography dataset | Scientific data |
@@ -317,7 +276,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 | Fnspid: A comprehensive financial news dataset in time series | KDD 2024 |
 | Multi-modal deep learning for credit rating prediction using text and numerical data streams | Applied Soft Computing |
 | Multimodal multiscale dynamic graph convolution networks for stock price prediction | Pattern Recognition |
-| Multi-Modal Financial Time-Series Retrieval Through Latent Space Projections | Proceedings of the Fourth ACM International Conference on AI in Finance |
+| Multi-Modal Financial Time-Series Retrieval Through Latent Space Projections | ACM ICAIF |
 | Natural language based financial forecasting: a survey | Artificial Intelligence Review |
 | Financial analysis, planning & forecasting: Theory and application | Unknown |
 | Text2timeseries: Enhancing financial forecasting through time series prediction updates with event-driven insights from large language models | arXiv 24.07 |
@@ -348,6 +307,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 | Title | Venue |
 |-------|-------|
+| Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization | ICML 2025 |
 | Context-Alignment: Activating and Enhancing LLM Capabilities in Time Series | ICLR 2025 |
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Exploiting Language Power for Time Series Forecasting with Exogenous Variables | THE WEB CONFERENCE 2025 |
@@ -360,9 +320,9 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 | S2 IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting | ICML 2024 |
 | Large language models are zero-shot time series forecasters | NeurIPS 2023 |
 | One fits all: Power general time series analysis by pretrained lm | NeurIPS 2023 |
-| PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting | IEEE Transactions on Knowledge and Data Engineering |
+| PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting | IEEE TKDE |
 | Chronos: Learning the language of time series | TMLR |
-| LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters | ACM Transactions on Intelligent Systems and Technology |
+| LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters | ACM TIST |
 | Large Language Models are Few-shot Multivariate Time Series Classifiers | arXiv 25.02 |
 | TimeCAP: Learning to Contextualize, Augment, and Predict Time Series Events with Large Language Model Agents | arXiv 25.02 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning | arXiv 24.12 |
@@ -376,13 +336,13 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 | Title | Venue |
 |-------|-------|
+| Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting | **ICML 2025** |
 | CAFO: Feature-Centric Explanation on Time Series Classification | KDD 2024 |
 | TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis | ICLR 2024 |
 | Towards total recall in industrial anomaly detection | CVPR 2022 |
-| Deep video prediction for time series forecasting | Proceedings of the Second ACM International Conference on AI in Finance 2021 |
+| Deep video prediction for time series forecasting | ACM ICAIF 2021 |
 | Forecasting with time series imaging | Expert Systems with Applications |
 | Can Multimodal LLMs Perform Time Series Anomaly Detection? | arXiv 25.02 |
-| Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting | arXiv 25.02 |
 | See it, Think it, Sorted: Large Multimodal Models are Few-shot Time Series Anomaly Analyzers | arXiv 24.11 |
 | Plots Unlock Time-Series Understanding in Multimodal Models | arXiv 24.10 |
 | VisionTS: Visual Masked Autoencoders Are Free-Lunch Zero-Shot Time Series Forecasters | arXiv 24.08 |
@@ -423,7 +383,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 | Title | Venue |
 |-------|-------|
-| Spatial-temporal large language model for traffic prediction | 25th IEEE International Conference on Mobile Data Management (MDM) 2024 |
+| Spatial-temporal large language model for traffic prediction | IEEE MDM 2024 |
 | Unist: A prompt-empowered universal model for urban spatio-temporal prediction | KDD 2024 |
 | Urbangpt: Spatio-temporal large language models | KDD 2024 |
 | Vmrnn: Integrating vision mamba and lstm for efficient and accurate spatiotemporal forecasting | CVPR 2024 |
@@ -431,7 +391,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 | Storm-gan: spatio-temporal meta-gan for cross-city estimation of human mobility responses to covid-19 | ICDM 2022 |
 | Deep multi-view spatial-temporal network for taxi demand prediction | AAAI 2018 |
 | Trafficgpt: Viewing, processing and interacting with traffic foundation models | Transport Policy |
-| Deep spatio-temporal adaptive 3d convolutional neural networks for traffic flow prediction | ACM Transactions on Intelligent Systems and Technology (TIST) |
+| Deep spatio-temporal adaptive 3d convolutional neural networks for traffic flow prediction | ACM TIST |
 | ClimateLLM: Efficient Weather Forecasting via Frequency-Aware Large Language Models | arXiv 25.02 |
 | TPLLM: A traffic prediction framework based on pretrained large language models | arXiv 24.03 |
 | How can large language models understand spatial-temporal data? | arXiv 24.01 |
@@ -442,8 +402,8 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 
 | Title | Venue |
 |-------|-------|
-| ECG-LLM: Leveraging Large Language Models for Low-Quality ECG Signal Restoration | IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2024 |
-| Multimodal llms for health grounded in individual-specific data | Workshop on Machine Learning for Multimodal Healthcare Data 2023 |
+| ECG-LLM: Leveraging Large Language Models for Low-Quality ECG Signal Restoration | IEEE BIBM 2024 |
+| Multimodal llms for health grounded in individual-specific data | ML for Multimodal Healthcare Data Workshop 2023 |
 | ECG-Chat: A Large ECG-Language Model for Cardiac Disease Diagnosis | arXiv 24.08 |
 | Medtsllm: Leveraging llms for multimodal medical time series analysis | arXiv 24.08 |
 | Dualtime: A dual-adapter multimodal language model for time series representation | arXiv 24.06 |
@@ -456,7 +416,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 | Title | Venue |
 |-------|-------|
 | MTRGL: Effective Temporal Correlation Discerning through Multi-modal Temporal Relational Graph Learning | ICASSP 2024 |
-| From pixels to predictions: Spectrogram and vision transformer for better time series forecasting | Proceedings of the Fourth ACM International Conference on AI in Finance 2023 |
+| From pixels to predictions: Spectrogram and vision transformer for better time series forecasting | ACM ICAIF 2023 |
 | Quantum-enhanced forecasting: Leveraging quantum gramian angular field and CNNs for stock return predictions | Finance Research Letters |
 | Deep learning-based spatial-temporal graph neural networks for price movement classification in crude oil and precious metal markets | Machine Learning with Applications |
 | Financial time series forecasting with multi-modality graph neural network | Pattern Recognition |
@@ -527,13 +487,14 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 ## Contact
 If you have any questions or suggestions, feel free to contact:
 hliu763@gatech.edu
+
 ## Acknowledgement
 
 We refer to the following repos:
 
 https://github.com/ForestsKing/Awesome-Multimodal-Time-Series
-
 https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM
+
 
 
 
