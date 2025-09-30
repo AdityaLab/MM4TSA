@@ -21,7 +21,7 @@
 ## News
 
 * 🔥 **ICML 2025 Paper Updated**.
-* 🆕 **IJCAI 2025 Paper Updated**.
+* 🔥 **IJCAI 2025 Paper Updated**.
 
 ---
 
