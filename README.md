@@ -1,3 +1,4 @@
+
 <div align="center">
   <h1>Awesome Multi-Modalities For Time Series Analysis Papers (MM4TSA)</h1>
 </div>
@@ -19,6 +20,7 @@
 
 ## News
 
+* 🔥 **NeurIPS 2025 Paper Updated**.
 * 🔥 **KDD 2025 Paper Updated**.
 * 🔥 **ICML 2025 Paper Updated**.
 * 🔥 **IJCAI 2025 Paper Updated**.
@@ -83,6 +85,9 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
     * [2.3.2 Medical Time Series](#232-medical-time-series)
     * [2.3.3 Financial Time Series](#233-financial-time-series)
   * [2.4 Gaps and Outlooks](#24-gaps-and-outlooks)
+    * [2.4.1 Heterogeneous Modality Combinations](#heterogeneous-modality-combinations-papers-2)
+    * **2.4.2 Robust & Efficient Multimodal TS (Outlook)**
+  * **2.5 Datasets & Benchmarks (Multimodal)**
 * [3. TimeAsX](#3-timeasx)
 
   * [3.1 Time Series as Text](#31-time-series-as-text)
@@ -91,6 +96,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 
     * [3.3.1 Tabular Data](#331-tabular-data)
     * [3.3.2 Audio Data](#332-audio-data)
+    * **3.3.3 Other Modalities**
   * [3.4 Domain Specific Applications](#34-domain-specific-applications)
 
     * [3.4.1 Spatial-Temporal Data](#341-spatial-temporal-data)
@@ -124,6 +130,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Language Models Still Struggle to Zero-shot Reason about Time Series                                                       | EMNLP 2024 Findings |
 | DiffuSETS: 12-lead ECG Generation Conditioned on Clinical Text Reports and Patient-Specific Information                    | arXiv 25.01 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning                         | arXiv 24.12 |
+| **Forging Time Series with Language: A Large Language Model Approach to Synthetic Data Generation**                        | **NeurIPS 2025** |
 
 #### 1.1.2 Retrieval
 
@@ -134,6 +141,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Evaluating Large Language Models on Time Series Feature Understanding: A Comprehensive Taxonomy and Benchmark | EMNLP 2024                                                      |
 | TimeSeriesExam: A Time Series Understanding Exam                                                              | NeurIPS 2024 Workshop on Time Series in the Age of Large Models |
 | CLaSP: Learning Concepts for Time-Series Signals from Natural Language Supervision                            | arXiv 24.11                                                     |
+| **TRACE: Grounding Time Series in Context for Multimodal Embedding and Retrieval**                            | **NeurIPS 2025**                                                |
 
 ### 1.2 Time Series to Text
 
@@ -144,7 +152,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Title                                                                                      | Venue       |
 | ------------------------------------------------------------------------------------------ | ----------- |
 | Inferring Event Descriptions from Time Series with Language Models                         | arXiv 25.03 |
-| Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop                        | arXiv 25.03 |
+| **Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop**                    | **NeurIPS 2025** |
 | Xforecast: Evaluating natural language explanations for time series forecasting            | arXiv 24.10 |
 | Large language models can deliver accurate and interpretable time series anomaly detection | arXiv 24.05 |
 
@@ -377,6 +385,18 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Imagebind: One embedding space to bind them all                    | CVPR 2023 |
 | LANISTR: Multimodal learning from structured and unstructured data | arXiv 23.05 |
 
+**2.4.2 Robust & Efficient Multimodal TS (Outlook)**
+
+| Title                                                                           | Venue        |
+| --------------------------------------------------------------------------------| ------------ |
+| **MAESTRO: Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series** | **NeurIPS 2025** |
+
+### 2.5 Datasets & Benchmarks (Multimodal)
+
+| Title                                                                 | Venue        |
+| --------------------------------------------------------------------- | ------------ |
+| **Time-IMM: A Dataset and Benchmark for Irregular Multimodal Multivariate Time Series** | **NeurIPS 2025** |
+
 ## 3. TimeAsX
 
 ### 3.1 Time Series as Text
@@ -409,6 +429,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Lag-llama: Towards foundation models for time series forecasting                                             | arXiv 23.10             |
 | Unleashing The Power of Pre-Trained Language Models for Irregularly Sampled Time Series                      | KDD 2025                |
 | Understanding Why Large Language Models Can Be Ineffective in Time Series Analysis: The Impact of Modality Alignment | KDD 2025        |
+| **Bridging Time and Linguistics: LLMs as Time Series Analyzer through Symbolization and Segmentation**       | **NeurIPS 2025**        |
 
 ### 3.2 Time Series as Image
 
@@ -431,6 +452,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Time Series as Images: Vision Transformer for Irregularly Sampled Time Series                | arXiv 23.03                      |
 | An image is worth 16x16 words: Transformers for image recognition at scale                   | arXiv 20.10                      |
 | Imaging Time-Series to Improve Classification and Imputation                                 | arXiv 15.06                      |
+| **Multi-Modal View Enhanced Large Vision Models for Long-Term Time Series Forecasting**      | **NeurIPS 2025**                 |
 
 ### 3.3 Time Series as Other Modalities
 
@@ -454,6 +476,12 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Ssast: Self-supervised audio spectrogram transformer                                | AAAI 2022 |
 | T-wavenet: a tree-structured wavelet neural network for time series signal analysis | ICLR 2022 |
 | Voice2Series: Reprogramming Acoustic Models for Time Series Classification          | arXiv 21.06 |
+
+**3.3.3 Other Modalities**
+
+| Title                                                                                                   | Venue         |
+| ------------------------------------------------------------------------------------------------------- | ------------- |
+| **GEM: Empowering MLLM for Grounded ECG Understanding with Time Series and Images**                     | **NeurIPS 2025** |
 
 ### 3.4 Domain Specific Applications
 
@@ -577,3 +605,4 @@ We refer to the following repos:
 [https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
 
 ---
+
