@@ -18,7 +18,7 @@
 ---
 
 ## News
-- **2025-09-30 — ICML 2025 Paper Updated**: Added **ITFormer**, **VerbalTS**, **BRIDGE**, **LangTime**, **Wavelet-based Tokenization**, **TIMING**, and updated **Time-VLM** to **ICML 2025**. See sections: [1.1.1](#111-generation), [1.2.1](#121-explanation), [1.3](#13-text-to-time-+-time-to-text), [2.1](#21-time-series-+-text), [3.1](#31-time-series-as-text), [3.2](#32-time-series-as-image).
+- **2025-09-30 — ICML 2025 Paper Updated**.
 
 ---
 
