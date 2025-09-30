@@ -126,7 +126,6 @@ url={https://arxiv.org/abs/2503.11835}
 
 | Title | Venue |
 |-------|-------|
-| TIMING: Temporality-Aware Integrated Gradients for Time Series Explanation | ICML 2025 |
 | Inferring Event Descriptions from Time Series with Language Models | arXiv 25.03 |
 | Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop | arXiv 25.03 |
 | Xforecast: Evaluating natural language explanations for time series forecasting | arXiv 24.10 |
@@ -246,7 +245,6 @@ url={https://arxiv.org/abs/2503.11835}
 
 | Title | Venue |
 |-------|-------|
-| LangTime: A Language-Guided Unified Model for Time Series Forecasting with Proximal Policy Optimization | ICML 2025 |
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis | NeurIPS 2024 |
 | From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection | NeurIPS 2024 |
@@ -356,7 +354,7 @@ url={https://arxiv.org/abs/2503.11835}
 
 | Title | Venue |
 |-------|-------|
-| Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization | ICML 2025 |
+| LangTime: A Language-Guided Unified Model for Time Series Forecasting with Proximal Policy Optimization | ICML 2025 |
 | Context-Alignment: Activating and Enhancing LLM Capabilities in Time Series | ICLR 2025 |
 | ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data | AAAI 2025 |
 | Exploiting Language Power for Time Series Forecasting with Exogenous Variables | THE WEB CONFERENCE 2025 |
