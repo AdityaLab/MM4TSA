@@ -1,4 +1,3 @@
-
 <div align="center">
   <h1>Awesome Multi-Modalities For Time Series Analysis Papers (MM4TSA)</h1>
 </div>
@@ -20,6 +19,7 @@
 
 ## News
 
+* 🔥 **KDD 2025 Paper Updated**.
 * 🔥 **ICML 2025 Paper Updated**.
 * 🔥 **IJCAI 2025 Paper Updated**.
 
@@ -114,14 +114,16 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 
 <a id="111-generation"></a>
 
-| Title                                                                                                                      | Venue               |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| VerbalTS: Generating Time Series from Texts                                                                                | ICML 2025           |
-| BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling | ICML 2025           |
-| **T2S: High-resolution Time Series Generation with Text-to-Series Diffusion Models**                                       | **IJCAI 2025**      |
+| Title                                                                                                                      | Venue     |
+| -------------------------------------------------------------------------------------------------------------------------- | --------- |
+| VerbalTS: Generating Time Series from Texts                                                                                | ICML 2025 |
+| BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling | ICML 2025 |
+| **T2S: High-resolution Time Series Generation with Text-to-Series Diffusion Models**                                       | **IJCAI 2025** |
+| MedDiTPro: A Prompt-Guided Diffusion Transformer for Multimodal Longitudinal Medical Data Synthesis                       | KDD 2025  |
+| TarDiff: Target-Oriented Diffusion Guidance for Synthetic Electronic Health Record Time Series Generation                  | KDD 2025  |
 | Language Models Still Struggle to Zero-shot Reason about Time Series                                                       | EMNLP 2024 Findings |
-| DiffuSETS: 12-lead ECG Generation Conditioned on Clinical Text Reports and Patient-Specific Information                    | arXiv 25.01         |
-| ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning                         | arXiv 24.12         |
+| DiffuSETS: 12-lead ECG Generation Conditioned on Clinical Text Reports and Patient-Specific Information                    | arXiv 25.01 |
+| ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning                         | arXiv 24.12 |
 
 #### 1.1.2 Retrieval
 
@@ -164,10 +166,10 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 
 <a id="13-text-to-time-+-time-to-text"></a>
 
-| Title                                                                                                     | Venue       |
-| --------------------------------------------------------------------------------------------------------- | ----------- |
-| ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset | ICML 2025   |
-| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data           | AAAI 2025   |
+| Title                                                                                                     | Venue     |
+| --------------------------------------------------------------------------------------------------------- | --------- |
+| ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset | ICML 2025 |
+| ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data           | AAAI 2025 |
 | Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement                              | arXiv 25.03 |
 | ChatTS: Aligning Time Series with LLMs via Synthetic Data for Enhanced Understanding and Reasoning        | arXiv 24.12 |
 | Multi-Modal Forecaster: Jointly Predicting Time Series and Textual Data                                   | arXiv 24.11 |
@@ -177,7 +179,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 <a id="14-other-cross-modality-works"></a>
 
 | Title                                                                           | Venue      |
-| ------------------------------------------------------------------------------- | ---------- |
+| --------------------------------------------------------------------------------| ---------- |
 | DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts | EMNLP 2024 |
 
 ### 1.5 Domain Specific Applications
@@ -273,6 +275,7 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | **LLM-TPF: Multiscale Temporal Periodicity-Semantic Fusion LLMs for Time Series Forecasting**                      | **IJCAI 2025** |
 | **Beyond Statistical Analysis: Multimodal Framework for Time Series Forecasting with LLM-Driven Temporal Pattern** | **IJCAI 2025** |
 | **FreqLLM: Frequency-Aware Large Language Models for Time Series Forecasting**                                     | **IJCAI 2025** |
+| CAMEF: Causal-Augmented Multi-Modality Event-Driven Financial Forecasting by Integrating Time Series Patterns and Salient Macroeconomic Announcements | KDD 2025 |
 
 #### Classification
 
@@ -287,10 +290,11 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 
 <a id="22-time-series-+-other-modalities"></a>
 
-| Title                                                              | Venue       |
-| ------------------------------------------------------------------ | ----------- |
-| Imagebind: One embedding space to bind them all                    | CVPR 2023   |
+| Title                                                              | Venue     |
+| ------------------------------------------------------------------ | --------- |
+| Imagebind: One embedding space to bind them all                    | CVPR 2023 |
 | LANISTR: Multimodal learning from structured and unstructured data | arXiv 23.05 |
+| Bi-Modal Learning for Networked Time Series                        | KDD 2025  |
 
 ### 2.3 Domain Specific Applications
 
@@ -312,6 +316,10 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Citygpt: Empowering urban spatial cognition of large language models                                                                                                  | arXiv 24.06                                                             |
 | Where Would I Go Next? Large Language Models as Human Mobility Predictors                                                                                             | arXiv 23.08                                                             |
 | Leveraging Language Foundation Models for Human Mobility Forecasting                                                                                                  | arXiv 22.09                                                             |
+| UrbanMind: Urban Dynamics Prediction with Multifaceted Spatial-Temporal Large Language Models                                                                          | KDD 2025                                                                |
+| From Swath to Full-Disc: Advancing Precipitation Retrieval with Multimodal Knowledge Expansion                                                                        | KDD 2025                                                                |
+| Multi-scale Physics-informed Transformer With Spatio-temporal Feature Adapter For Extreme Precipitation Nowcasting                                                    | KDD 2025                                                                |
+| Physics-Guided Learning of Meteorological Dynamics for Weather Downscaling and Forecasting                                                                            | KDD 2025                                                                |
 
 #### 2.3.2 Medical Time Series
 
@@ -364,9 +372,9 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 
 <a id="heterogeneous-modality-combinations-papers-2"></a>
 
-| Title                                                              | Venue       |
-| ------------------------------------------------------------------ | ----------- |
-| Imagebind: One embedding space to bind them all                    | CVPR 2023   |
+| Title                                                              | Venue     |
+| ------------------------------------------------------------------ | --------- |
+| Imagebind: One embedding space to bind them all                    | CVPR 2023 |
 | LANISTR: Multimodal learning from structured and unstructured data | arXiv 23.05 |
 
 ## 3. TimeAsX
@@ -399,6 +407,8 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 | Large language models can deliver accurate and interpretable time series anomaly detection                   | arXiv 24.05             |
 | Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning                                | arXiv 24.02             |
 | Lag-llama: Towards foundation models for time series forecasting                                             | arXiv 23.10             |
+| Unleashing The Power of Pre-Trained Language Models for Irregularly Sampled Time Series                      | KDD 2025                |
+| Understanding Why Large Language Models Can Be Ineffective in Time Series Analysis: The Impact of Modality Alignment | KDD 2025        |
 
 ### 3.2 Time Series as Image
 
@@ -439,10 +449,10 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 
 <a id="332-audio-data"></a>
 
-| Title                                                                               | Venue       |
-| ----------------------------------------------------------------------------------- | ----------- |
-| Ssast: Self-supervised audio spectrogram transformer                                | AAAI 2022   |
-| T-wavenet: a tree-structured wavelet neural network for time series signal analysis | ICLR 2022   |
+| Title                                                                               | Venue     |
+| ----------------------------------------------------------------------------------- | --------- |
+| Ssast: Self-supervised audio spectrogram transformer                                | AAAI 2022 |
+| T-wavenet: a tree-structured wavelet neural network for time series signal analysis | ICLR 2022 |
 | Voice2Series: Reprogramming Acoustic Models for Time Series Classification          | arXiv 21.06 |
 
 ### 3.4 Domain Specific Applications
@@ -507,10 +517,10 @@ url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 
 <a id="351-reuse-which-modality"></a>
 
-| Title                                                                                           | Venue       |
-| ----------------------------------------------------------------------------------------------- | ----------- |
-| A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL25     |
-| Can LLMs Understand Time Series Anomalies?                                                      | ICLR 2025   |
+| Title                                                                                           | Venue    |
+| ----------------------------------------------------------------------------------------------- | -------- |
+| A picture is worth a thousand numbers: Enabling llms reason about time series via visualization | NAACL25  |
+| Can LLMs Understand Time Series Anomalies?                                                      | ICLR 2025|
 | Vision-Enhanced Time Series Forecasting via Latent Diffusion Models                             | arXiv 25.02 |
 
 ## 4. Datasets for Multi-Modal Time Series Analysis
@@ -567,4 +577,3 @@ We refer to the following repos:
 [https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
 
 ---
-
