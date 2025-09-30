@@ -1,3 +1,52 @@
+<div align="center">
+  <h1>Awesome Multi-Modalities For Time Series Analysis Papers (MM4TSA)</h1>
+</div>
+
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <img src="https://img.shields.io/badge/PRs-Welcome-green" alt="PRs Welcome">
+  <a href="https://arxiv.org/abs/2303.11835">
+    <img src="https://img.shields.io/badge/arXiv-2303.11835-b31b1b.svg" alt="arXiv">
+  </a>
+</p>
+
+<p align="center">
+  <strong><a href="https://mp.weixin.qq.com/s/DUgaWPuf0g5EdUlGulADWA">中文解读1</a></strong>
+  <strong><a href="https://mp.weixin.qq.com/s/ytGc3c_ZaPpoz2pNsydH3w">中文解读2</a></strong>
+</p>
+
+---
+
+## News
+- **2025-09-30 — ICML 2025 Paper Updated**: Added **ITFormer**, **VerbalTS**, **BRIDGE**, **LangTime**, **Wavelet-based Tokenization**, **TIMING**, and updated **Time-VLM** to **ICML 2025**. See sections: [1.1.1](#111-generation), [1.2.1](#121-explanation), [1.3](#13-text-to-time-+-time-to-text), [2.1](#21-time-series-+-text), [3.1](#31-time-series-as-text), [3.2](#32-time-series-as-image).
+
+---
+
+Time series analysis (TSA) is a longstanding research topic in the data mining community and has wide real-world significance. Compared to "richer" modalities such as language and vision, which have recently experienced explosive development and are densely connected, the time-series modality remains relatively underexplored and isolated. We notice that many recent TSA works have formed a new research field, i.e., Multiple Modalities for TSA (MM4TSA). In general, these MM4TSA works follow a common motivation: how TSA can benefit from multiple modalities. This survey is the first to offer a comprehensive review and a detailed outlook for this emerging field. Specifically, we systematically discuss three benefits: (1) reusing foundation models of other modalities for efficient TSA, (2) multimodal extension for enhanced TSA, and (3) cross-modality interaction for advanced TSA. We further group the works by the introduced modality type, including text, images, audio, tables, and others, within each perspective. Finally, we identify the gaps with future opportunities, including the reused modalities selections, heterogeneous modality combinations, and unseen tasks generalizations, corresponding to the three benefits. We release this up-to-date GitHub repository that includes key papers and resources. More details please check our <a href="https://arxiv.org/abs/2503.11835"><strong>survey</strong></a>.
+
+<div align="center">
+  <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_1_1.jpg" width="447">
+  <img src="https://github.com/AdityaLab/MM4TSA/blob/main/Survey_Logo_2.jpg" width="500">
+</div>
+
+## Contributing
+
+🚀 We will continue to update this repo. If you find it helpful, please Star it or Cite Our Survey.
+
+🤝 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Citation
+
+🤗 If you find this survey useful, please consider citing our paper. 🤗
+@misc{liu2025timeseriesanalysisbenefit,
+title={How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook},
+author={Haoxin Liu and Harshavardhan Kamarthi and Zhiyuan Zhao and Shangqing Xu and Shiyu Wang and Qingsong Wen and Tom Hartvigsen and Fei Wang and B. Aditya Prakash},
+year={2025},
+eprint={2503.11835},
+archivePrefix={arXiv},
+primaryClass={cs.LG},
+url={https://arxiv.org/abs/2503.11835}
+}
 
 ---
 
