@@ -43,6 +43,7 @@ Time series analysis (TSA) is a longstanding research topic in the data mining c
 ## Citation
 
 🤗 If you find this survey useful, please consider citing our paper. 🤗
+```
 @misc{liu2025timeseriesanalysisbenefit,
 title={How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook},
 author={Haoxin Liu and Harshavardhan Kamarthi and Zhiyuan Zhao and Shangqing Xu and Shiyu Wang and Qingsong Wen and Tom Hartvigsen and Fei Wang and B. Aditya Prakash},
@@ -52,7 +53,7 @@ archivePrefix={arXiv},
 primaryClass={cs.LG},
 url={[https://arxiv.org/abs/2503.11835}](https://arxiv.org/abs/2503.11835})
 }
-
+```
 ---
 
 ## Table of Contents
